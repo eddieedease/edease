@@ -41,47 +41,21 @@
 
 
 
-//----------------------------------------------------/
-// The block number above each block
-//----------------------------------------------------/
+
 .block-number {
-  $color: #191919;
+  color: #191919;
 
   text-align: center;
   font-weight: bold;
   font-size: 0.8125em;
   letter-spacing: 2px;
   text-transform: uppercase;
-  color: $color;
-  //opacity: 0.8;
+  color: color;
+  opacity: 0.8;
   transition: 0.3s ease-out;
-
-  &:hover {
-    opacity: 1;
-  }
-
-  &::after {
-    content: '';
-    display: inline-block;
-    width: 0;
-    height: 0;
-    margin-left: 6px;
-    margin-bottom: 2px;
-    border-left: 3px solid transparent;
-    border-right: 3px solid transparent;
-    border-top: 3px solid $color;
-  }
-
-  a:hover,
-  a:focus {
-    color: $color;
-  }
 }
 
 
-//----------------------------------------------------/
-// Make some change to components in demo
-//----------------------------------------------------/
 .demo-section .main-content .section,
 .demo-topbar .main-content .topbar,
 .demo-navbar .main-content .navbar,
@@ -98,85 +72,6 @@
   margin: 0;
 }
 
-
-//----------------------------------------------------/
-// Index cover
-//----------------------------------------------------/
-.sample-blocks {
-
-  img {
-    border-radius: 0.25rem;
-
-    &.aos-animate {
-      opacity: 0.5 !important;
-    }
-
-    &:hover {
-      opacity: 1 !important;
-      transition: 0.7s !important;
-    }
-  }
-
-  a {
-    position: absolute;
-  }
-
-  a:nth-child(1) {
-    animation: wobble 4s infinite;
-    right: 15px;
-    bottom: -20px;
-  }
-
-  a:nth-child(2) {
-    animation: wobble 8s infinite;
-    right: 320px;
-    bottom: 30px;
-  }
-
-  a:nth-child(3) {
-    animation: wobble 5s infinite;
-    right: 0px;
-    bottom: 190px;
-  }
-
-  a:nth-child(4) {
-    animation: wobble 6s infinite;
-    right: 280px;
-    bottom: 180px;
-  }
-
-  a:nth-child(5) {
-    animation: wobble 9s infinite;
-    right: 270px;
-    bottom: 320px;
-  }
-
-  a:nth-child(6) {
-    animation: wobble 7s infinite;
-    right: 20px;
-    bottom: 370px;
-  }
-
-  a:nth-child(7) {
-    animation: wobble 5s infinite;
-    right: 200px;
-    bottom: 470px;
-  }
-
-  a:nth-child(8) {
-    animation: wobble 8s infinite;
-    right: 10px;
-    bottom: 470px;
-  }
-
-  a:nth-child(9) {
-    animation: wobble 9s infinite;
-    right: 0px;
-    bottom: 570px;
-  }
-
-}
-
 @keyframes wobble {
   0% {
     transform: rotate(-1deg) translate(-5px, -5px);
@@ -191,19 +86,6 @@
   }
 }
 
-
-//----------------------------------------------------/
-// Footer responsive
-//----------------------------------------------------/
-@media (max-width: 400px) {
-  body>.footer {
-
-    .social a:last-child,
-    .nav a:last-child {
-      display: none;
-    }
-  }
-}
 
 
 
@@ -6525,7 +6407,7 @@ button.close {
   -webkit-box-align: center;
   align-items: center;
   width: 100%;
-  -webkit-backface-visibility: hidden;
+  
   backface-visibility: hidden;
   -webkit-perspective: 1000px;
   perspective: 1000px;
@@ -13526,7 +13408,7 @@ body[data-aos-easing="ease-in-out-quart"] [data-aos],
  * flip-left, flip-right, flip-up, flip-down
  */
 [data-aos^='flip'][data-aos^='flip'] {
-  -webkit-backface-visibility: hidden;
+  
   backface-visibility: hidden;
   -webkit-transition-property: -webkit-transform;
   transition-property: -webkit-transform;
@@ -13815,31 +13697,28 @@ body[data-aos-easing="ease-in-out-quart"] [data-aos],
 }
 
 .fa-rotate-90 {
-  -ms-filter: "progid:DXImageTransform.Microsoft.BasicImage(rotation=1)";
   -webkit-transform: rotate(90deg);
   transform: rotate(90deg);
 }
 
 .fa-rotate-180 {
-  -ms-filter: "progid:DXImageTransform.Microsoft.BasicImage(rotation=2)";
   -webkit-transform: rotate(180deg);
   transform: rotate(180deg);
 }
 
 .fa-rotate-270 {
-  -ms-filter: "progid:DXImageTransform.Microsoft.BasicImage(rotation=3)";
   -webkit-transform: rotate(270deg);
   transform: rotate(270deg);
 }
 
 .fa-flip-horizontal {
-  -ms-filter: "progid:DXImageTransform.Microsoft.BasicImage(rotation=0, mirror=1)";
+
   -webkit-transform: scale(-1, 1);
   transform: scale(-1, 1);
 }
 
 .fa-flip-vertical {
-  -ms-filter: "progid:DXImageTransform.Microsoft.BasicImage(rotation=2, mirror=1)";
+
   -webkit-transform: scale(1, -1);
   transform: scale(1, -1);
 }
@@ -16728,7 +16607,7 @@ body[data-aos-easing="ease-in-out-quart"] [data-aos],
 [data-icon]:before {
   font-family: 'et-line';
   content: attr(data-icon);
-  speak: none;
+  
   font-weight: normal;
   font-variant: normal;
   text-transform: none;
@@ -16845,7 +16724,7 @@ you can use the generic selector below, but it's slower:
 .icon-linkedin,
 .icon-dribbble {
   font-family: 'et-line';
-  speak: none;
+  
   font-style: normal;
   font-weight: normal;
   font-variant: normal;
@@ -17275,7 +17154,7 @@ you can use the generic selector below, but it's slower:
 [class^="ti-"],
 [class*=" ti-"] {
   font-family: 'themify';
-  speak: none;
+  
   font-style: normal;
   font-weight: normal;
   font-variant: normal;
@@ -19447,7 +19326,7 @@ you can use the generic selector below, but it's slower:
   z-index: 1500;
   -webkit-text-size-adjust: 100%;
   /* create separate layer, to avoid paint on window.onscroll in webkit/blink */
-  -webkit-backface-visibility: hidden;
+  
   outline: none;
 }
 
@@ -19509,7 +19388,7 @@ you can use the generic selector below, but it's slower:
   opacity: 0;
   -webkit-transform: translateZ(0);
   transform: translateZ(0);
-  -webkit-backface-visibility: hidden;
+  
   will-change: opacity;
 }
 
@@ -19568,10 +19447,7 @@ you can use the generic selector below, but it's slower:
   transition: none;
 }
 
-.pswp__container,
-.pswp__zoom-wrap {
-  -webkit-backface-visibility: hidden;
-}
+
 
 .pswp__item {
   position: absolute;
@@ -19588,14 +19464,6 @@ you can use the generic selector below, but it's slower:
   height: auto;
   top: 0;
   left: 0;
-}
-
-/*
-	stretched thumbnail or div placeholder element (see below)
-	style is added to avoid flickering in webkit/blink when layers overlap
-*/
-.pswp__img--placeholder {
-  -webkit-backface-visibility: hidden;
 }
 
 /*
@@ -19828,7 +19696,7 @@ you can use the generic selector below, but it's slower:
   opacity: 0;
   -webkit-transition: opacity 0.25s ease-out;
   transition: opacity 0.25s ease-out;
-  -webkit-backface-visibility: hidden;
+  
   will-change: opacity;
 }
 
@@ -19853,7 +19721,7 @@ you can use the generic selector below, but it's slower:
   transition: -webkit-transform 0.25s;
   transition: transform 0.25s;
   transition: transform 0.25s, -webkit-transform 0.25s;
-  -webkit-backface-visibility: hidden;
+  
   will-change: transform;
 }
 
@@ -20168,7 +20036,7 @@ a.pswp__share--download:hover {
 .pswp__top-bar,
 .pswp--has_mouse .pswp__button--arrow--left,
 .pswp--has_mouse .pswp__button--arrow--right {
-  -webkit-backface-visibility: hidden;
+  
   will-change: opacity;
   -webkit-transition: opacity 333ms cubic-bezier(0.4, 0, 0.22, 1);
   transition: opacity 333ms cubic-bezier(0.4, 0, 0.22, 1);
@@ -24504,7 +24372,7 @@ button:focus {
   font-weight: 300;
   letter-spacing: 0;
   margin-bottom: 0;
-  line-height: $height-sm;
+  line-height: height-sm;
   cursor: pointer;
   white-space: nowrap;
 
@@ -24513,12 +24381,12 @@ button:focus {
 
     &:checked ~ .switch-indicator {
       border-color: theme-color-level('primary', -9);
-      //background: lighten($color-primary, 20%);
+      //background: lighten(color-primary, 20%);
 
       &::after {
-        background: $color-primary;
+        background: color-primary;
         left: calc(100% - 14px);
-        box-shadow: 0px 0px 3px $color-bg-lightest;
+        box-shadow: 0px 0px 3px color-bg-lightest;
       }
     }
 
@@ -24541,7 +24409,7 @@ button:focus {
   width: 40px;
   height: 20px;
   background: transparent;
-  border: 2px solid $color-divider-light;
+  border: 2px solid color-divider-light;
   border-radius: 20px;
   vertical-align: middle;
   transition: 0.3s;
@@ -24557,7 +24425,7 @@ button:focus {
     height: 12px;
     transition: 0.3s;
     cursor: inherit;
-    background: $color-divider-dark;
+    background: color-divider-dark;
     border-radius: 50%;
   }
 }
@@ -27641,7 +27509,7 @@ body:not(.body-scrolled) .topbar.d-flex~.navbar {
   transform: translate(0, 0) !important;
 }
 
-.popup.show[data-position$="-center"] {
+.popup.show[data-position="-center"] {
   -webkit-transform: translate(-50%, 0) !important;
   transform: translate(-50%, 0) !important;
 }
@@ -27684,7 +27552,7 @@ body:not(.body-scrolled) .topbar.d-flex~.navbar {
   transform: translate(0, 100%);
 }
 
-.popup[data-animation="slide-up"][data-position$="-center"] {
+.popup[data-animation="slide-up"][data-position="-center"] {
   -webkit-transform: translate(-50%, 100%);
   transform: translate(-50%, 100%);
 }
@@ -27694,7 +27562,7 @@ body:not(.body-scrolled) .topbar.d-flex~.navbar {
   transform: translate(0, -100%);
 }
 
-.popup[data-animation="slide-down"][data-position$="-center"] {
+.popup[data-animation="slide-down"][data-position="-center"] {
   -webkit-transform: translate(-50%, -100%);
   transform: translate(-50%, -100%);
 }
@@ -28485,24 +28353,10 @@ a.text-lightest:focus {
 .text-hue-rotate {
   color: #f35626;
   background-image: -webkit-linear-gradient(92deg, #f35626, #feab3a);
-  -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
-  -webkit-animation: hue-rotate 60s infinite linear;
 }
 
-.bg-hue-rotate {
-  -webkit-animation: hue-rotate 30s linear infinite;
-}
 
-@-webkit-keyframes hue {
-  from {
-    -webkit-filter: hue-rotate(0deg);
-  }
-
-  to {
-    -webkit-filter: hue-rotate(-360deg);
-  }
-}
 
 .flex-grow-0 {
   -webkit-box-flex: 0;
@@ -29618,4 +29472,4 @@ a.text-lightest:focus {
   }
 }
 
-    /*# sourceMappingURL=style.css.map */
+/*# sourceMappingURL=style.css.map */
