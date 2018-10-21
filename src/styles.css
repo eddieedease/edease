@@ -5911,6 +5911,7 @@ button.close {
 }
 
 .modal-dialog {
+  max-width: 90% !important;
   position: relative;
   width: auto;
   margin: 0.5rem;
@@ -5931,6 +5932,10 @@ button.close {
     -webkit-transition: none;
     transition: none;
   }
+}
+
+body.modal-dialog {
+  overflow: visible !important;
 }
 
 .modal.show .modal-dialog {
@@ -28354,6 +28359,10 @@ a.text-lightest:focus {
   color: #f35626;
   background-image: -webkit-linear-gradient(92deg, #f35626, #feab3a);
   -webkit-text-fill-color: transparent;
+}
+
+.modalsize{
+    max-width:100% !important;
 }
 
 

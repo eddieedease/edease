@@ -1,3 +1,17 @@
+<ng-template #workmodal style="max-width: 100%">
+    <div >
+  <div class="modal-header">
+    <h4 class="modal-title pull-left">Werk</h4>
+    <button type="button" class="close pull-right" aria-label="Close" (click)="modalRef.hide()">
+      <span aria-hidden="true">&times;</span>
+    </button>
+  </div>
+  <div class="modal-body">
+   <app-work></app-work>
+  </div></div>
+
+</ng-template>
+
 <nav class="navbar navbar-expand-lg navbar-light navbar-stick-dark" data-navbar="sticky">
   <div class="container">
     <div class="row">
@@ -32,7 +46,7 @@
 <!-- Header -->
 <header class="header text-white h-fullscreen pb-0 overflow-hidden" style="background-color: #262a37;">
  
-  <div class="overlay opacity-90" style="background-image: linear-gradient(to bottom, #09203f 0%, #215379 100%);"></div>
+  <div class="overlay opacity-50" style="background-image: linear-gradient(to bottom, #09203f 0%, #215379 100%);"></div>
   <canvas class="constellation" data-color="rgba(255,255,255,0.3)"></canvas>
   <div class="container text-center"><br>
     <div class="row align-items-center h-100">
@@ -176,22 +190,25 @@
           </li>
         </ul>
 
-
+        
         <div class="row gap-y gap-2" data-shuffle="list">
 
-          <div class="col-6 col-lg-3" data-shuffle="item" data-groups="bag,box">
-            <a class="portfolio-1" href="#" data-toggle="modal" data-target="#modal-portfolio">
-              <img src="assets/img/portfolio/1.jpg" alt="screenshot">
-              <div class="portfolio-detail">
-                <h5>Phone Bag</h5>
-                <p>Bag, Box</p>
-              </div>
-            </a>
-          </div>
-
-
-          
+            
+        
+            <div *ngFor="let work of workArray| paginate: { itemsPerPage: 12, currentPage: p } ;let i = index " class="col-6 col-lg-3" data-shuffle="item" data-groups="bag,box">
+              
+              <a (click)="openModal(workmodal)" class="portfolio-1" style="cursor: pointer;">
+                <img [src]="work.cover" alt="screenshot">
+                <div class="portfolio-detail">
+                  <h5>{{work.title}}</h5>
+                </div>
+              </a>
+              <br>
+            </div>
         </div>
+        <div  class="text-center">
+            <pagination-controls (pageChange)="p = $event" previousLabel="Vorige" nextLabel="Volgende"></pagination-controls>
+          </div>
       </div>
 
 

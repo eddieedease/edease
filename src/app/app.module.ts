@@ -1,6 +1,7 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 
+
 import { RouterModule, Routes } from '@angular/router';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { FormsModule } from '@angular/forms';
@@ -10,6 +11,12 @@ import { ModalModule } from 'ngx-bootstrap/modal';
 import { TabsModule } from 'ngx-bootstrap/tabs';
 import { CollapseModule } from 'ngx-bootstrap/collapse';
 import { ButtonsModule } from 'ngx-bootstrap/buttons';
+
+import 'hammerjs';
+
+import { HttpModule, JsonpModule } from '@angular/http';
+import {NgxPaginationModule} from 'ngx-pagination';
+import { NgxGalleryModule } from 'ngx-gallery';
 
 import { AppComponent } from './app.component';
 import { LandingComponent } from './landing/landing.component';
@@ -44,7 +51,11 @@ const appRoutes: Routes = [
     TabsModule.forRoot(),
     ModalModule.forRoot(),
     CollapseModule.forRoot(),
-    ButtonsModule.forRoot()
+    ButtonsModule.forRoot(),
+    HttpModule,
+    JsonpModule,
+    NgxPaginationModule,
+    NgxGalleryModule
   ],
   providers: [],
   bootstrap: [AppComponent]
