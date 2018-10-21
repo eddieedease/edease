@@ -24952,6 +24952,7 @@ select:invalid {
 }
 
 .portfolio-1::before {
+  border: 10px;
   content: '';
   position: absolute;
   top: 0;
@@ -24972,7 +24973,7 @@ select:invalid {
   left: 0;
   right: 0;
   bottom: 0;
-  border: 1px solid #fff;
+  border: 1px solid #000;
   opacity: 0;
   -webkit-transition: all 0.3s;
   transition: all 0.3s;
@@ -24980,11 +24981,11 @@ select:invalid {
 }
 
 .portfolio-1:hover::before {
-  opacity: .8;
+  opacity: .95;
 }
 
 .portfolio-1:hover::after {
-  opacity: .8;
+  opacity: .95;
   top: 10px;
   left: 10px;
   right: 10px;

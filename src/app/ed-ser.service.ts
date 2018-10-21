@@ -35,6 +35,7 @@ export class EdSerService {
   }
 
   serSetWorkNumber(_value) {
+    console.log(_value);
     this.cur_WorkNumber = _value;
   }
 
