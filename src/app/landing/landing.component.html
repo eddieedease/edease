@@ -167,7 +167,7 @@
       <header class="section-header">
         <h2>Werk</h2>
         <hr>
-        <p class="lead">You can find several product design by our professional team in this section.</p>
+        <p class="lead">Een selectie:</p>
       </header>
 
 
@@ -177,16 +177,16 @@
             <a class="nav-link active" href="#" data-shuffle="button">Alles</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#" data-shuffle="button" data-group="bag">Applicaties</a>
+            <a class="nav-link" href="#" data-shuffle="button" data-group="app">Applicaties</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#" data-shuffle="button" data-group="box">Video</a>
+            <a class="nav-link" href="#" data-shuffle="button" data-group="video">Video</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#" data-shuffle="button" data-group="book">Ontwerp</a>
+            <a class="nav-link" href="#" data-shuffle="button" data-group="design">Ontwerp</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#" data-shuffle="button" data-group="bottle">Games</a>
+            <a class="nav-link" href="#" data-shuffle="button" data-group="games">Games</a>
           </li>
         </ul>
 
@@ -195,7 +195,7 @@
 
             
         
-            <div *ngFor="let work of workArray| paginate: { itemsPerPage: 12, currentPage: p } ;let i = index " class="col-6 col-lg-3"  data-shuffle="item" data-groups="bag,box">
+            <div *ngFor="let work of workArray| paginate: { itemsPerPage: 12, currentPage: p } ;let i = index " class="col-6 col-lg-3"  data-shuffle="item" [attr.data-groups]="work.tags">
               
               <a (click)="openModal(workmodal, i)" class="portfolio-1" style="cursor: pointer;border:1px">
                 <img [src]="work.cover" style="cursor: pointer;border:1px" alt="screenshot">

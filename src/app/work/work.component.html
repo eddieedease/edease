@@ -8,14 +8,14 @@
 
 <div class="container-fluid">
 <div class="row">
-  <div class="col-12 col-md-6">
+  <div class="col-12 col-md-7">
  
   <div style="color:black !important">
     <ngx-gallery [options]="galleryOptions" [images]="galleryImages"></ngx-gallery>
   </div>
 
 </div>
-<div class="col-12 col-md-6">
+<div class="col-12 col-md-5">
 
   <h4>{{currentTitle}}</h4>
   <hr>
@@ -26,7 +26,7 @@
   </div>
   <div class="divider"></div>
   <div class="">
-    <b *ngFor="let tag of currentTags"> &nbsp;&nbsp;{{tag}} &nbsp; &nbsp;</b>
+    <b> &nbsp;&nbsp;{{currentTags}} &nbsp; &nbsp;</b>
   </div>
 
   <br><br>
