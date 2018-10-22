@@ -170,7 +170,7 @@
       </header>
 
 
-      <div data-provide="shuffle">
+      <!-- <div data-provide="shuffle">
         <ul class="nav nav-center nav-bold nav-uppercase nav-slash mb-7" data-shuffle="filter">
           <li class="nav-item">
             <a class="nav-link active" href="#" data-shuffle="button">Alles</a>
@@ -187,17 +187,16 @@
           <li class="nav-item">
             <a class="nav-link" href="#" data-shuffle="button" data-group="games">Games</a>
           </li>
-        </ul>
+        </ul> -->
 
         
-        <div class="row gap-y gap-2" data-shuffle="list">
+        
+        <div class="row gap-y gap-2">
 
-            
         
             <div *ngFor="let work of workArray| paginate: { itemsPerPage: 12, currentPage: p } ;let i = index " class="col-6 col-lg-3"  data-shuffle="item" [attr.data-groups]="work.tags">
-              
               <a (click)="openModal(workmodal, i)" class="portfolio-1" style="cursor: pointer;border:1px">
-                <img [src]="work.cover" style="cursor: pointer;border:1px" alt="screenshot">
+                <img [src]="work.cover" style="cursor: pointer;border:1px">
                 <div class="portfolio-detail">
                   <h5>{{work.title}}</h5>
                 </div>
@@ -208,7 +207,7 @@
         <div  class="text-center">
             <pagination-controls (pageChange)="p = $event" previousLabel="Vorige" nextLabel="Volgende"></pagination-controls>
           </div>
-      </div>
+      <!-- </div> -->
 
 
     </div>

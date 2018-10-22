@@ -58,6 +58,7 @@ export class LandingComponent implements OnInit {
         //  return el;
         // });
         this.workArray = this.json;
+        console.log(this.workArray);
       },
       error => console.error(error));
   }
