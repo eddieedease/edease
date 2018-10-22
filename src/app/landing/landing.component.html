@@ -12,16 +12,16 @@
 
 </ng-template>
 
-<nav class="navbar navbar-expand-lg navbar-light navbar-stick-dark" data-navbar="sticky">
+<nav id="top" class="navbar navbar-expand-lg navbar-light fixed-top fixed-top" data-navbar="sticky">
   <div class="container">
     <div class="row">
 
       <section class="col-lg-5 navbar-mobile">
         <nav class="nav nav-navbar mr-auto">
-          <a class="nav-link">Top</a>
-          <a class="nav-link active">Over</a>
-          <a class="nav-link">Werk</a>
-          <a class="nav-link">Contact</a>
+          <a pageScroll href="#services" class="nav-link">Diensten</a>
+          <a pageScroll href="#about" class="nav-link">Over</a>
+          <a pageScroll href="#work" class="nav-link">Werk</a>
+          <a pageScroll href="#contact" class="nav-link">Contact</a>
         </nav>
       </section>
 
@@ -73,16 +73,16 @@
   |‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒
   !-->
   <section class="section">
-    <div class="container">
+    <div id="services" class="container">
       <header class="section-header">
-        <small>Services</small>
+        <small>Diensten</small>
         <h2>Wat kan Edease voor u betekenen?</h2>
         
         <p class="lead">Maatwerk voor het web</p>
    
       </header>
 
-      <div class="row gap-y text-center">
+      <div  class="row gap-y text-center">
 
         <div class="col-md-6 col-xl-3 feature-1">
           <p class="feature-icon lead-8 text-info"><i class="fa fa-code"></i></p>
@@ -129,12 +129,12 @@
         </div>
 
 
-        <div class="col-md-4 mx-auto">
+        <div id="about" class="col-md-4 mx-auto">
           <h3>Over</h3>
           <p>Welkom, Edease ondersteunt bedrijven met het bedenken, ontwerpen en realiseren van multimediaoplossingen. <br><br>
 
               Dit varieert van het coden van een applicatie, tot het maken van een animatie. Deze brede inzetbaarheid is mijn kracht als zzp-er. Neem gerust contact op als je denkt dat we iets voor elkaar kunnen betekenen.</p>
-          <a href="">Lees meer <i class="ti-angle-right fs-10 ml-1"></i></a>
+          <a > <hr></a>
         </div>
 
       </div>
@@ -143,28 +143,27 @@
 
   
 
-  <section class="section overflow-hidden">
+  <section class="section overflow-hidden" style='background-color:#1b293f;color:white'>
     <div class="container-fluid">
       <div class="row gap-y align-items-center">
 
-        <div class="col-md-4 mx-auto text-center">
+        <div id="verder1" class="col-md-4 mx-auto text-center">
           <img style="border:0px" src="assets/shot-3.png" alt="..." data-aos="fade-left">
         </div>
 
 
         <div class="col-md-4 mx-auto order-md-first">
-          <h3>Maatwerk</h3>
+          <h3 style="color:white">Maatwerk</h3>
           <p>Het wereld wijde web is veel veranderd de afgelopen tijd. Ik heb al vele jaren ervaring met alles wat zich afspeelt op het web, en pas de nieuwste en laatste technieken toe in mijn werk. De sites/applicaties die ik codeer kunnen op elk device worden bekeken en zijn razendsnel. Als developer ontwikkel ik full-stack. Dat wil zeggen dat ik zowel de front-end als de back-end kan verzorgen. Compleet zelfstandig, of ik kan meedraaien in een team.</p>
-          <a href="">Lees meer <i class="ti-angle-right fs-10 ml-1"></i></a>
+          <a > <hr></a>
         </div>
-
       </div>
     </div>
   </section>
 
-  <section class="section overflow-hidden">
-    <div class="container">
-      <header class="section-header">
+  <section  class="section overflow-hidden">
+    <div  id="work" class="container">
+      <header id="verder2" class="section-header">
         <h2>Werk</h2>
         <hr>
         <p class="lead">Een selectie:</p>
@@ -229,7 +228,7 @@
         <div class="col-md-4 mx-auto">
           <h3>Oplossingsgericht</h3>
           <p>Ik denk graag mee over oplossingen waar bedrijven tegenaan lopen. Gebruiksvriendelijkheid staat daarmee bij mij hoog in het vaandel. Geen poespas dus, de eindgebruiker staat centraal. Qua ontwerp houd ik alles het liefst lekker modern en strak. Verder is het een kwestie van de juiste tools gebruiken voor ieder project, en ik ben niet bang om iets nieuws te leren mocht ik iets nog niet kennen.</p>
-          <a href="">Lees meer <i class="ti-angle-right fs-10 ml-1"></i></a>
+          <a > <hr></a>
         </div>
 
       </div>
@@ -337,12 +336,10 @@
   !-->
 
 
-  <section class="section">
-    <div class="container">
+  <section class="section" style="background-color: #215379">
+    <div id="verder3" class="container">
       <header class="section-header">
-        <h2>Meer info</h2>
-        <hr>
-  
+        <h2 style="color:white">Meer info</h2>
       </header>
 
 
@@ -357,12 +354,12 @@
 
               <div id="collapse-1-1" class="collapse" data-parent="#accordion-1">
                 <div class="card-body">
-                  <span>Ik heb een licentie op
+                  <span>Edease heeft een licentie op
                     <b>Adobe Cloud CC</b>, en kan ik al jaren overweg met programma's zoals Photoshop, Illustrator, Indesign en
                     After Effects.
                     <br>
                     <br>Voor webdevelopment maak ik veelal gebruik van
-                    <b>Angular</b> voor de front-end. Hiermee maak ik een SPA (Single Page Application) die razendsnel in alle browsers
+                    <b>Angular</b> voor de front-end. Hiermee maak ik een <b>SPA (Single Page Application)</b> die razendsnel in alle browsers
                     werkt. Ontwikkeling verloopt via NODEJS. Voor back-end werk (bijvoorbeeld het schrijven van een API) maak
                     ik vooral gebruik van PHP en MySQL. </span>
                   <img src="assets/toolset.png">
@@ -401,12 +398,16 @@
   | CTA
   |‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒
   !-->
-  <section class="section bg-gray text-center">
+  <section id="contact" class="section bg-gray text-center">
     <div class="container">
-      <h2 class="mb-6"><strong>Bedankt</strong></h2>
-      <p class="lead text-muted">dat je een kijkje hebt genomen op de site :)</p>
-      <hr class="w-5 my-7">
-      <a class="btn btn-lg btn-round btn-primary" HREF="mailto:eddie@edease.nl">Stuur een mail</a>
+       
+        <h2 class="mb-6"><strong>Contact opnemen</strong></h2>
+        <a class="btn btn-lg btn-round btn-primary" HREF="mailto:eddie@edease.nl">Stuur een mailtje</a>
+        <br><a href="mailto:eddie@edease.nl">eddie@edease.nl</a><br>
+        <hr class="w-5 my-7">
+      <h4 class="mb-6"><strong>Bedankt</strong></h4>
+      <p class="lead text-muted">dat je een kijkje hebt genomen op de site <i class="fa fa-heart"></i></p>
+      
     </div>
   </section>
 
@@ -439,7 +440,8 @@
 
       <div class="col-12 text-center">
         <br>
-        <small>© Edease 2018</small>
+        <small>© Edease 2018 </small>
+        <small>KvK Nummer: 58764852</small>
       </div>
 
     </div>

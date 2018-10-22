@@ -26067,7 +26067,7 @@ body:not(.body-scrolled) .topbar.d-flex~.navbar {
 }
 
 .navbar {
-  position: absolute;
+  position: fixed;
   top: 10px;
   left: 0;
   right: 0;
