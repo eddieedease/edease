@@ -15,9 +15,15 @@ import { ButtonsModule } from 'ngx-bootstrap/buttons';
 import 'hammerjs';
 
 import { HttpModule, JsonpModule } from '@angular/http';
-import {NgxPaginationModule} from 'ngx-pagination';
-import {NgxPageScrollModule} from 'ngx-page-scroll';
+import { HttpClientModule } from '@angular/common/http';
+import {  NgxPaginationModule} from 'ngx-pagination';
+import {  NgxPageScrollModule} from 'ngx-page-scroll';
 import { NgxGalleryModule } from 'ngx-gallery';
+
+
+import {
+  EdSerService
+} from './ed-ser.service';
 
 import { AppComponent } from './app.component';
 import { LandingComponent } from './landing/landing.component';
@@ -54,12 +60,13 @@ const appRoutes: Routes = [
     CollapseModule.forRoot(),
     ButtonsModule.forRoot(),
     HttpModule,
+    HttpClientModule,
     JsonpModule,
     NgxPaginationModule,
     NgxGalleryModule,
     NgxPageScrollModule
   ],
-  providers: [],
+  providers: [EdSerService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
