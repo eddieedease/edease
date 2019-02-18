@@ -81,10 +81,13 @@ export class WorkComponent implements OnInit, OnDestroy {
 
     this.galleryOptions = [{
         width: '500px',
-        height: '500px',
+        height: '400px',
         thumbnailsColumns: 4,
+        thumbnailsMargin: 20,
+        thumbnailMargin: 20,
         imageAnimation: NgxGalleryAnimation.Slide,
         thumbnails: true,
+        layout:  'thumbnails-top',
         imageInfinityMove: true,
         previewInfinityMove: true
         /* previewFullscreen: true */
@@ -94,16 +97,17 @@ export class WorkComponent implements OnInit, OnDestroy {
         breakpoint: 800,
         width: '90%',
         height: '500px',
+        imageSize: "contain",
         imagePercent: 80,
         thumbnailsPercent: 20,
-        thumbnailsMargin: 20,
-        thumbnailMargin: 20,
+       
         previewDescription: true
       },
       // max-width 400
       {
-        breakpoint: 500,
-        preview: true,
+        breakpoint: 400,
+        thumbnailsColumns: 2,
+        preview: false,
         height: '200px',
       }
     ];
