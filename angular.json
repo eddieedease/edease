@@ -25,11 +25,12 @@
             "styles": [
               "node_modules/bootstrap/dist/css/bootstrap.min.css",
               "node_modules/font-awesome/css/font-awesome.css",
-              "src/assets/js/page.js",
-              "src/assets/js/script.js",
               "src/styles.css"
             ],
-            "scripts": []
+            "scripts": [
+              "src/assets/js/page.js",
+              "src/assets/js/script.js",
+            ]
           },
           "configurations": {
             "production": {

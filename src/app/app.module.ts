@@ -17,7 +17,7 @@ import 'hammerjs';
 import { HttpModule, JsonpModule } from '@angular/http';
 import { HttpClientModule } from '@angular/common/http';
 import {  NgxPaginationModule} from 'ngx-pagination';
-import { NgxPageScrollCoreModule } from 'ngx-page-scroll-core';
+import { NgxPageScrollModule } from 'ngx-page-scroll';
 import { NgxGalleryModule } from 'ngx-gallery';
 
 
@@ -64,7 +64,7 @@ const appRoutes: Routes = [
     JsonpModule,
     NgxPaginationModule,
     NgxGalleryModule,
-    NgxPageScrollCoreModule
+    NgxPageScrollModule
   ],
   providers: [EdSerService],
   bootstrap: [AppComponent]
