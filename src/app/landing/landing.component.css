@@ -3,15 +3,49 @@
 }
 
 
+/* set Color */ 
+.headd {
+  background-color: #09203f;
+}
+
+.headerpast{
+  background-image: linear-gradient(to bottom, #09203f 0%, #215379 100%);
+}
+
+/* set Color */ 
+.headernow {
+  background : linear-gradient(132deg, #24c6dc, #3494e6, #ec6ead, #f80759, #bc4e9c); 
+  background-size : 400% 400%;
+   animation : Gradient 15s ease infinite; 
+}
+/* Animate Background*/
+@keyframes Gradient {
+0% {
+     background-position: 0% 50%
+   }
+50% { 
+     background-position: 100% 50%
+   }
+100% {
+  background-position: 0% 50%
+  }
+}
+
+.dienst{
+  background-color: rgb(1, 127, 173);
+  color: white !important;
+}
+
+.dienst h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
+  color: white !important;
+}
+
 .workk{
     width:100wh;
-    color:white;
+    color:#272a37;
     text-align:center;
     font-family:sans-serif;
-    background: linear-gradient(-45deg, #EE7752, #E73C7E, #23A6D5, #23D5AB);
-    background-size: 400% 400%;
-  -moz-animation: Gradient 30s ease infinite;
-    animation: Gradient 30S ease infinite;
+    background-color: rgb(1, 127, 173);
   }
 
   @keyframes Gradient{
