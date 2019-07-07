@@ -36,7 +36,8 @@ import {
   styleUrls: ['./landing.component.css']
 })
 export class LandingComponent implements OnInit {
-  @ViewChild(WorkComponent) workComponent: WorkComponent;
+
+  @ViewChild(WorkComponent, {static: true}) workComponent: WorkComponent;
   // Ref to modal
   modalRef: BsModalRef;
 
