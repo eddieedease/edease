@@ -87,7 +87,7 @@ export class WorkComponent implements OnInit, OnDestroy {
         thumbnailMargin: 20,
         imageAnimation: NgxGalleryAnimation.Slide,
         thumbnails: true,
-        layout:  'thumbnails-top',
+        layout:  'thumbnails-bottom',
         imageInfinityMove: true,
         previewInfinityMove: true
         /* previewFullscreen: true */
@@ -97,7 +97,7 @@ export class WorkComponent implements OnInit, OnDestroy {
         breakpoint: 800,
         width: '90%',
         height: '500px',
-        imageSize: "contain",
+        imageSize: 'contain',
         imagePercent: 80,
         thumbnailsPercent: 20,
        
