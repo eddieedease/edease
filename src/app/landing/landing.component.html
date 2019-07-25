@@ -1,19 +1,20 @@
 <ng-template #workmodal style="max-width: 100%">
-    <div>
-        <button type="button" class="close pull-right" aria-label="Close" (click)="modalRef.hide()">
-            <span aria-hidden="true">&times;</span>
-          </button>
   <div>
-      
-    <div class="text-center"><br>
-    <h4>Werk</h4>
+    <button type="button" class="close pull-right" aria-label="Close" (click)="modalRef.hide()">
+      <span aria-hidden="true">&times;</span>
+    </button>
+    <div>
+
+      <div class="text-center"><br>
+        <h4>Werk</h4>
+      </div>
+
+
+    </div>
+    <div class="modal-body">
+      <app-work></app-work>
+    </div>
   </div>
-  
-    
-  </div>
-  <div class="modal-body">
-   <app-work></app-work>
-  </div></div>
 
 </ng-template>
 
@@ -40,7 +41,7 @@
 
       <div class="col-auto col-lg-5 text-right">
         <!-- <a class="btn btn-sm btn-round btn-outline-success d-none d-lg-inline-block mr-2" href="">Sign in</a> -->
-       <a class="fa fa-github fa-2x" href="https://github.com/eddieedease" target="_blank"></a>
+        <a class="fa fa-github fa-2x" href="https://github.com/eddieedease" target="_blank"></a>
       </div>
 
     </div>
@@ -50,24 +51,26 @@
 
 <!-- Header -->
 <header class="header headd text-white h-fullscreen pb-0 overflow-hidden">
- 
+
   <div class=" headd"></div>
   <!-- <canvas class="constellation" data-color="rgba(255,255,255,0.3)"></canvas> -->
   <div class="container text-center"><br>
     <div class="row align-items-center h-90">
 
       <div class="col-md-8 mx-auto">
-          <img class="logo-dark" src="assets/logo1b.png" alt="logo">
-        <h2>Edease</h2><br>
-        <p class="lead mt-4 mb-3">Webdevelopment & multimedia-design</p> <br><br>
         
+        <img class="logo-dark" src="assets/logo1b.png" alt="logo">
+        <h2 style="color:#132163 !important">Edease</h2>
+        
+
         <!-- <a class="btn btn-xl btn-round btn-primary px-8" href="">Try For Free</a> -->
       </div>
 
       <div class="col-md-8 mx-auto align-self-end">
         <img src="assets/laptop-2.png" alt="img" data-aos="fade-up">
-        <br><br>
-        <div pageScroll href="#services" class="btn btn-primary btn-round"><i class="fa fa-arrow-down"></i></div>
+        <br><p class="lead mt-4 mb-3">Webdevelopment & multimedia-design</p> <br><br><br>
+        <div pageScroll href="#services" style="background-color: #132163" class="btn btn-primary btn-round"><i
+            class="fa fa-arrow-down"></i></div>
       </div>
 
     </div>
@@ -79,46 +82,64 @@
   | Teamwork To The Next Level
   |‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒
   !-->
-  <section class="section dienst">
-    <div id="services" class="container">
-      <header class="section-header">
+<section class="section dienst">
+  <div id="services" class="container">
+    <header class="section-header">
+      <p style="color:#f1f1f1"><b>Maatwerk voor het web!</b></p>
 
-        <h2 style='color:white !important'>Wat kan <span style="color: #272a37">Edease</span> voor u betekenen?</h2>
-        
-        <p style="color:#272a37"><b>Maatwerk voor het web!</b></p>
-   
-      </header>
+    </header>
 
-      <div  class="row gap-y text-center">
-
-        <div class="col-md-6 col-xl-3 feature-1">
-            <h5>Webdevelopment</h5>
-          <p class="feature-icon lead-8" style="color: #d2df1d"><i class="fa fa-code"></i></p>
-          
-        </div>
-
-        <div class="col-md-6 col-xl-3 feature-1">
-            <h5>Ontwerp</h5>
-          <p class="feature-icon lead-8" style="color: #d2df1d"><i class="fa fa-window-restore"></i></p>
-          
-        </div>
-
-        <div class="col-md-6 col-xl-3 feature-1">
-            <h5>Animaties</h5>
-          <p class="feature-icon lead-8" style="color: #d2df1d"><i class="fa fa-film"></i></p>
-          
-        </div>
-
-        <div class="col-md-6 col-xl-3 feature-1">
-            <h5>HTML5-Games</h5>
-            <p class="feature-icon lead-8" style="color: #d2df1d"><i class="fa fa-gamepad"></i></p>
-            
+    <div class="row gap-y text-center">
+      <div class="col-md-4 col-sm-12">
+        <div class="servicebox">
+          <div class="service-icon">
+            <span><i class="fa fa-code"></i></span>
           </div>
-
+          <h3 class="title">Webdevelopment</h3>
+          <p style="color: white" class="description">Moderne websites & applicaties die razendsnel in de browser werken. Front- & Backend!
+          </p>
+        </div>
       </div>
 
+
+
+
+      <div class="col-md-4 col-sm-12">
+        <div class="servicebox">
+          <div class="service-icon">
+            <span><i class="fa fa-window-restore"></i></span>
+          </div>
+          <h3 class="title">Ontwerp</h3>
+          <p style="color: white" class="description">Responsive ontwerpen voor het web. Maar ook drukwerk en animaties. Stijlvol en strak!
+          </p>
+        </div>
+      </div>
+
+
+
+
+      <div class="col-md-4 col-sm-12">
+        <div class="servicebox">
+          <div class="service-icon">
+            <span><i class="fa fa-gamepad"></i></span>
+          </div>
+          <h3 class="title">Games</h3>
+          <p style="color: white" class="description">HTML5 games, rechtstreeks vanuit de browser!
+          </p>
+        </div>
+      </div>
+
+
     </div>
-  </section>
+  </div>
+
+
+
+
+
+
+
+</section>
 <!-- Main Content -->
 <main class="main-content">
 
@@ -131,24 +152,27 @@
     <div class="container-fluid">
       <div class="row gap-y align-items-center">
 
-        <div class="col-md-4 mx-auto text-center">
+        <div class="col-md-6  text-center">
           <img style="border:0px" src="assets/shot-2.png" alt="..." data-aos="fade-right">
         </div>
 
 
         <div id="about" class="col-md-4 mx-auto">
           <h3 style="color:#215379 !important">Over</h3>
-          <p>Welkom, Edease ondersteunt bedrijven met het bedenken, ontwerpen en realiseren van multimediaoplossingen. <br><br>
-
-              Dit varieert van het coden van een applicatie, tot het maken van een animatie. Deze brede inzetbaarheid is mijn kracht als zzp-er. Neem gerust contact op als je denkt dat we iets voor elkaar kunnen betekenen.</p>
-          <a > <hr></a>
+          <p>Welkom, als ZZP'er ondersteunt Edease bedrijven met het bedenken, ontwerpen en realiseren van multimediaoplossingen. Ik heb al 10+ jaar ervaring op het gebied van Webdevelopment & Design en heb al voor vele tevreden klanten mogen werken.
+            <br><br>
+            Dit varieert van het opzetten voor een website, opmaken van flyers, productie van een animatie, tot het maken van een game. Deze brede inzetbaarheid is
+            mijn kracht. 
+            <br><br>
+            Neem gerust <a pageScroll href="#contact" style="color:blue !important">contact</a> op als je denkt dat we iets voor elkaar kunnen betekenen.</p>
+            
         </div>
 
       </div>
     </div>
   </section>
 
-  
+
 
   <section class="section overflow-hidden" style='background-color:#1b293f;color:white'>
     <div class="container-fluid">
@@ -161,15 +185,20 @@
 
         <div class="col-md-4 mx-auto order-md-first">
           <h3 style="color:white">Maatwerk</h3>
-          <p>Het wereld wijde web is veel veranderd de afgelopen tijd. Ik heb al vele jaren ervaring met alles wat zich afspeelt op het web, en pas de nieuwste en laatste technieken toe in mijn werk. De sites/applicaties die ik codeer kunnen op elk device worden bekeken en zijn razendsnel. Als developer ontwikkel ik full-stack. Dat wil zeggen dat ik zowel de front-end als de back-end kan verzorgen. Compleet zelfstandig, of ik kan meedraaien in een team.</p>
-          <a > <hr></a>
+          <p>Het wereld wijde web is veel veranderd de afgelopen tijd. Ik heb al vele jaren ervaring met alles wat zich
+            afspeelt op het web, en pas de nieuwste en laatste technieken toe in mijn werk. De sites/applicaties die ik
+            codeer kunnen op elk device worden bekeken en zijn razendsnel. <br><br>Als developer ontwikkel ik full-stack. Dat
+            wil zeggen dat ik zowel de front-end als de back-end kan verzorgen. Compleet zelfstandig, of ik kan
+            meedraaien in een team.</p>
+          <a>
+            <hr></a>
         </div>
       </div>
     </div>
   </section>
 
-  <section  class="section overflow-hidden workk">
-    <div  id="work" class="container">
+  <section class="section overflow-hidden workk">
+    <div id="work" class="container">
       <header id="verder2" class="section-header">
         <h2 style="color:white">Werk</h2>
       </header>
@@ -194,24 +223,27 @@
           </li>
         </ul> -->
 
-        
-        
-        <div class="row gap-y gap-2">
 
-        
-            <div *ngFor="let work of workArray| paginate: { itemsPerPage: 12, currentPage: p } ;let i = index " class="col-6 col-lg-3"   [attr.data-groups]="work.tags">
-              <a (click)="openModal(workmodal, i)" class="portfolio-1" style="cursor: pointer;border:1px; border-radius: 10px">
-                <img [src]="work.cover" style="cursor: pointer;border:1px">
-                <div class="portfolio-detail">
-                  <h5>{{work.title}}</h5>
-                </div>
-              </a>
-              <br>
+
+      <div class="row gap-y gap-2">
+
+
+        <div *ngFor="let work of workArray| paginate: { itemsPerPage: 12, currentPage: p } ;let i = index "
+          class="col-6 col-lg-3" [attr.data-groups]="work.tags">
+          <a (click)="openModal(workmodal, i)" class="portfolio-1"
+            style="cursor: pointer;border:1px; border-radius: 10px">
+            <img [src]="work.cover" style="cursor: pointer;border:1px">
+            <div class="portfolio-detail">
+              <h5>{{work.title}}</h5>
             </div>
+          </a>
+          <br>
         </div>
-        <div  class="text-center">
-            <pagination-controls (pageChange)="p = $event" previousLabel="Vorige" nextLabel="Volgende"></pagination-controls>
-          </div>
+      </div>
+      <div class="text-center">
+        <pagination-controls (pageChange)="p = $event" previousLabel="Vorige" nextLabel="Volgende">
+        </pagination-controls>
+      </div>
       <!-- </div> -->
 
 
@@ -231,8 +263,14 @@
 
         <div class="col-md-4 mx-auto">
           <h3 style="color:#215379 !important">Oplossingsgericht</h3>
-          <p>Ik denk graag mee over oplossingen waar bedrijven tegenaan lopen. Gebruiksvriendelijkheid staat daarmee bij mij hoog in het vaandel. Geen poespas dus, de eindgebruiker staat centraal. Qua ontwerp houd ik alles het liefst lekker modern en strak. Verder is het een kwestie van de juiste tools gebruiken voor ieder project, en ik ben niet bang om iets nieuws te leren mocht ik iets nog niet kennen.</p>
-          <a > <hr></a>
+          <p>Ik denk graag mee over oplossingen waar bedrijven tegenaan lopen. Gebruiksvriendelijkheid en privacybescherming staat daarmee bij
+            mij hoog in het vaandel. Geen poespas dus, de eindgebruiker staat centraal. Qua ontwerp houd ik alles het
+            liefst lekker modern en strak. 
+          <br><br>Verder is het een kwestie van de juiste tools gebruiken voor ieder project,
+          en ik ben niet bang om iets nieuws te leren mocht ik iets nog niet kennen.
+        </p>
+          <a>
+            <hr></a>
         </div>
 
       </div>
@@ -240,7 +278,7 @@
   </section>
 
 
-  
+
 
 
   <!--
@@ -359,12 +397,15 @@
               <div id="collapse-1-1" class="collapse" data-parent="#accordion-1">
                 <div class="card-body">
                   <span>Edease heeft een licentie op
-                    <b>Adobe Cloud CC</b>, en kan ik al jaren overweg met programma's zoals Photoshop, Illustrator, Indesign en
+                    <b>Adobe Cloud CC</b>, en kan ik al jaren overweg met programma's zoals Photoshop, Illustrator,
+                    Indesign en
                     After Effects.
                     <br>
                     <br>Voor webdevelopment maak ik veelal gebruik van
-                    <b>Angular</b> voor de front-end. Hiermee maak ik een <b>SPA (Single Page Application)</b> die razendsnel in alle browsers
-                    werkt. Ontwikkeling verloopt via NODEJS. Voor back-end werk (bijvoorbeeld het schrijven van een API) maak
+                    <b>Angular</b> voor de front-end. Hiermee maak ik een <b>SPA (Single Page Application)</b> die
+                    razendsnel in alle browsers
+                    werkt. Ontwikkeling verloopt via NODEJS. Voor back-end werk (bijvoorbeeld het schrijven van een API)
+                    maak
                     ik vooral gebruik van PHP en MySQL. </span>
                   <img src="assets/toolset.png">
                 </div>
@@ -386,7 +427,7 @@
 
 
 
-        
+
 
           </div>
 
@@ -404,14 +445,15 @@
   !-->
   <section id="contact" class="section bg-gray text-center">
     <div class="container">
-       
-        <h2 class="mb-6" style="color:#215379 !important"><strong>Contact opnemen</strong></h2>
-        <a class="btn btn-lg btn-round btn-primary" HREF="mailto:eddie@edease.nl">Stuur een mailtje</a>
-        <br><a style="color:blue" href="mailto:eddie@edease.nl">eddie@edease.nl</a><br>
-        <hr class="w-5 my-7">
+
+      <h2 class="mb-6" style="color:#215379 !important"><strong>Contact opnemen</strong></h2>
+      <a class="btn btn-lg btn-round btn-primary" HREF="mailto:eddie@edease.nl">Stuur een mailtje</a>
+      <br><a style="color:blue" href="mailto:eddie@edease.nl">eddie@edease.nl</a><br>
+      <hr class="w-5 my-7">
       <h4 class="mb-6" style="color:#215379 !important"><strong>Bedankt</strong></h4>
-      <p class="lead text-muted" style="color:#215379">dat je een kijkje hebt genomen op de site <i class="fa fa-heart"></i></p>
-      
+      <p class="lead text-muted" style="color:#215379">dat je een kijkje hebt genomen op de site <i
+          class="fa fa-heart"></i></p>
+
     </div>
   </section>
 
@@ -420,10 +462,11 @@
 
 
 <!-- Footer -->
-<footer class="footer text-white bt-0 py-7" style="background-image: linear-gradient(135deg, #4481eb 0%, #04befe 100%);">
+<footer class="footer text-white bt-0 py-7"
+  style="background-image: linear-gradient(135deg, #4481eb 0%, #04befe 100%);">
   <div class="container">
     <div class="row align-items-center">
-<!-- 
+      <!-- 
       <div class="col-md-6">
         <div class="nav nav-bold nav-uppercase justify-content-center justify-content-md-end">
           <a class="nav-link" href="">About</a>

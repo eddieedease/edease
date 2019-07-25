@@ -4807,7 +4807,7 @@ input[type="button"].btn-block {
 }
 
 .navbar-light .navbar-text {
-  color: rgba(255, 255, 255, 0.65);
+  color:#000;
 }
 
 .navbar-light .navbar-text a {
@@ -27251,7 +27251,7 @@ body:not(.body-scrolled) .topbar.d-flex~.navbar {
 
 .navbar-light .navbar-toggler,
 .navbar-stick-light.stick .navbar-toggler {
-  color: rgba(255, 255, 255, 0.65);
+  color: #000;
 }
 
 .navbar-light .navbar-toggler:hover,
@@ -27268,7 +27268,7 @@ body:not(.body-scrolled) .topbar.d-flex~.navbar {
 .navbar-light .nav-navbar>.nav-link,
 .navbar-stick-light.stick .nav-navbar>.nav-item>.nav-link,
 .navbar-stick-light.stick .nav-navbar>.nav-link {
-  color: rgba(255, 255, 255, 0.65);
+  color: #000
 }
 
 .navbar-light .nav-navbar>.nav-item>.nav-link>.arrow,

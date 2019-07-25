@@ -103,6 +103,14 @@ export class WorkComponent implements OnInit, OnDestroy {
        
         previewDescription: true
       },
+      {
+        breakpoint: 1000,
+        width: '90%',
+      },
+      {
+        breakpoint: 1200,
+        width: '85%',
+      },
       // max-width 400
       {
         breakpoint: 400,

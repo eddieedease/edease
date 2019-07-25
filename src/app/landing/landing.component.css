@@ -1,87 +1,257 @@
-.modal-dialog{
-    max-width:100% !important;
+.modal-dialog {
+  max-width: 100% !important;
 }
 
 
-/* set Color */ 
-.headd {  
-  background: #1c92d2;  /* fallback for old browsers */
-  background: -webkit-linear-gradient(to top, #f2fcfe, #1c92d2);  /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(to top, #f2fcfe, #1c92d2); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-  
+
+
+body {
+
+  margin-top: 50px !important;
+
 }
 
-.headerpast{
+h3,
+p {
+
+  margin: 0;
+
+}
+
+.servicebox {
+
+  text-align: center;
+
+}
+
+.servicebox .service-icon {
+
+  display: inline-block;
+
+  width: 75px;
+
+  height: 75px;
+
+  border-radius: 10px;
+
+  background-color: #62bbf3;
+
+  margin-bottom: 30px;
+
+}
+
+.servicebox .service-icon i.fa {
+  line-height: 75px;
+
+  color: #ffffff;
+
+  font-size: 35px;
+
+  transition: all 0.3s ease 0s;
+
+}
+
+.servicebox:hover .service-icon i.fa {
+
+  transform: rotateY(180deg);
+  color: #0d2063;
+
+}
+
+.servicebox .title {
+
+  color: #333;
+
+  border-bottom: 1px solid #132162;
+
+  display: block;
+
+  line-height: 30px;
+
+  margin: 0 auto 20px;
+
+  padding-bottom: 20px;
+
+  position: relative;
+
+  text-align: center;
+
+  width: 190px;
+
+}
+
+.servicebox .title:before,
+
+.servicebox .title:after {
+
+  background: #FFF;
+
+  border-radius: 100%;
+
+  bottom: -5px;
+
+  content: "";
+
+  height: 10px;
+
+  margin: 0 -5px 0 0;
+
+  position: absolute;
+
+  right: 50%;
+
+  transition: all 0.4s ease 0s;
+
+  width: 10px;
+
+}
+
+.servicebox .title:before {
+
+  left: 50%;
+
+  margin: 0 0 0 -5px;
+
+}
+
+.servicebox:hover .title:before {
+
+  left: 100%;
+
+}
+
+.servicebox:hover .title:after {
+
+  right: 100%;
+
+}
+
+.servicebox .description {
+
+  color: grey;
+
+  padding: 0 15px;
+
+  font: 14px;
+
+  line-height: 27px;
+
+  transition: all 300ms ease 0s;
+
+}
+
+
+
+@media screen and (max-width:1000px) {
+
+  .servicebox {
+
+    margin-bottom: 30px;
+
+  }
+
+}
+
+
+
+
+/* set Color */
+.headd {
+  background-image: linear-gradient(135deg, #5EFCE8 10%, #736EFE 100%);
+}
+
+.headerpast {
   background-image: linear-gradient(to bottom, #09203f 0%, #215379 100%);
 }
 
-/* set Color */ 
+/* set Color */
 .headernow {
-  background : linear-gradient(132deg, #24c6dc, #3494e6, #ec6ead, #f80759, #bc4e9c); 
-  background-size : 400% 400%;
-   animation : Gradient 15s ease infinite; 
+  background: linear-gradient(132deg, #24c6dc, #3494e6, #ec6ead, #f80759, #bc4e9c);
+  background-size: 400% 400%;
+  animation: Gradient 15s ease infinite;
 }
+
 /* Animate Background*/
 @keyframes Gradient {
-0% {
-     background-position: 0% 50%
-   }
-50% { 
-     background-position: 100% 50%
-   }
-100% {
-  background-position: 0% 50%
+  0% {
+    background-position: 0% 50%
+  }
+
+  50% {
+    background-position: 100% 50%
+  }
+
+  100% {
+    background-position: 0% 50%
   }
 }
 
-.dienst{
+.dienst {
+  background-color: #0d2063;
+  color: white !important;
+}
+
+.dienst h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+.h1,
+.h2,
+.h3,
+.h4,
+.h5,
+.h6 {
+  color: white !important;
+}
+
+.workk {
+  width: 100wh;
+  color: #272a37;
+  text-align: center;
+  font-family: sans-serif;
   background-color: rgb(1, 127, 173);
-  color: white !important;
 }
 
-.dienst h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
-  color: white !important;
+@keyframes Gradient {
+  0% {
+    background-position: 0% 50%
+  }
+
+  50% {
+    background-position: 50% 100%
+  }
+
+  100% {
+    background-position: 50% 0%
+  }
 }
 
-.workk{
-    width:100wh;
-    color:#272a37;
-    text-align:center;
-    font-family:sans-serif;
-    background-color: rgb(1, 127, 173);
+@-moz-keyframes Gradient {
+  0% {
+    background-position: 0% 50%
   }
 
-  @keyframes Gradient{
-    0%{
-      background-position: 0% 50%
-    }
-    50%{
-      background-position: 50% 100%
-    }
-    100%{
-      background-position: 50% 0%
-    }
+  50% {
+    background-position: 100% 50%
   }
-  @-moz-keyframes Gradient{
-      0% {
-          background-position: 0% 50%
-      }
-      50% {
-          background-position: 100% 50%
-      }
-      100% {
-          background-position: 0% 50%
-      }
+
+  100% {
+    background-position: 0% 50%
   }
-  h1{
-    border:1px solid black;
-    width: 300px;
-    text-align:center;
-    margin:auto;
-    padding: 12px 24px;
-    background-color: rgba(0,0,0,0.5);
-  }
-  a{
-    color: #ffffff;
-    text-decoration:none; 
-  }
+}
+
+h1 {
+  border: 1px solid black;
+  width: 300px;
+  text-align: center;
+  margin: auto;
+  padding: 12px 24px;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+a {
+  color: #ffffff;
+  text-decoration: none;
+}
