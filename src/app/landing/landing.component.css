@@ -34,7 +34,7 @@ p {
 
   border-radius: 10px;
 
-  background-color: #62bbf3;
+  background-color: #06beb6;
 
   margin-bottom: 30px;
 
@@ -243,7 +243,13 @@ a {
 }
 
 
+.headd{
+  background: #06beb6;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #48b1bf, #06beb6);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #48b1bf, #06beb6); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  
 
+}
 
 
 .login,
@@ -392,8 +398,8 @@ a {
 
 .banner-left h1 {
     color: #fff;
-    font-size: 30px;
-    font-weight: 500;
+    font-size: 24px;
+    font-weight: 400;
     line-height: 50px;
     text-shadow: 1px 2px #000;
 	  margin-bottom:25px;
@@ -457,8 +463,8 @@ a {
 @media only screen and (max-width: 800px ){
 	.banner-left h1 {
     color: #fff;
-    font-size: 30px;
-    font-weight: 800;
+    font-size: 24px;
+    font-weight: 400;
     line-height: 35px;
     text-shadow: 1px 2px #000238;
 }
