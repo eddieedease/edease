@@ -8,7 +8,7 @@
     "test": "ng test",
     "lint": "ng lint",
     "e2e": "ng e2e",
-    "edbuild" : "ng build --prod --build-optimizer --aot --output-hashing=all --output-path dist"
+    "edbuild": "ng build --prod --build-optimizer --aot --output-hashing=all --output-path dist"
   },
   "private": true,
   "dependencies": {

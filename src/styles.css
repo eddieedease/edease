@@ -26068,7 +26068,6 @@ body:not(.body-scrolled) .topbar.d-flex~.navbar {
 
 .navbar {
   position: fixed;
-  top: 10px;
   left: 0;
   right: 0;
   z-index: 1000;
