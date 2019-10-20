@@ -28,11 +28,13 @@ import {
 import { AppComponent } from './app.component';
 import { LandingComponent } from './landing/landing.component';
 import { WorkComponent } from './work/work.component';
+import { SiteComponent } from './site/site.component';
 
 const appRoutes: Routes = [
   { path: 'landing', component: LandingComponent },
+  { path: 'site', component: SiteComponent },
   { path: '',
-    redirectTo: '/landing',
+    redirectTo: '/site',
     pathMatch: 'full'
   },
   { path: '**', component: LandingComponent }
@@ -43,7 +45,8 @@ const appRoutes: Routes = [
   declarations: [
     AppComponent,
     LandingComponent,
-    WorkComponent
+    WorkComponent,
+    SiteComponent
   ],
   imports: [
     RouterModule.forRoot(

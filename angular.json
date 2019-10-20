@@ -25,11 +25,26 @@
             "styles": [
               "node_modules/bootstrap/dist/css/bootstrap.min.css",
               "node_modules/font-awesome/css/font-awesome.css",
-              "src/styles.css"
+              "src/assets/css/new/style.css",
+              "src/assets/css/new/skin-7.css",
+              "src/assets/css/new/templete.css"
             ],
             "scripts": [
               "src/assets/js/page.js",
               "src/assets/js/script.js",
+              "src/assets/js/new/jquery.min.js",
+              "src/assets/js/new/custom.js",
+              "src/assets/js/new/revolution/revolution/js/jquery.themepunch.tools.min.js",
+              "src/assets/js/new/revolution/revolution/js/jquery.themepunch.revolution.min.js",
+              "src/assets/js/new/revolution/revolution/js/extensions/revolution.extension.slideanims.min.js",
+              "src/assets/js/new/revolution/revolution/js/extensions/revolution.extension.actions.min.js",
+              "src/assets/js/new/revolution/revolution/js/extensions/revolution.extension.layeranimation.min.js",
+              "src/assets/js/new/revolution/revolution/js/extensions/revolution.extension.kenburn.min.js",
+              "src/assets/js/new/revolution/revolution/js/extensions/revolution.extension.navigation.min.js",
+              "src/assets/js/new/revolution/revolution/js/extensions/revolution.extension.parallax.min.js",
+
+              "src/assets/js/new/rev.slider.js",
+              "src/assets/js/new/wow/wow.js"
             ]
           },
           "configurations": {
