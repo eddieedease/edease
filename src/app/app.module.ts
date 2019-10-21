@@ -26,25 +26,25 @@ import {
 } from './ed-ser.service';
 
 import { AppComponent } from './app.component';
-import { LandingComponent } from './landing/landing.component';
+// import { LandingComponent } from './landing/landing.component';
 import { WorkComponent } from './work/work.component';
 import { SiteComponent } from './site/site.component';
 
 const appRoutes: Routes = [
-  { path: 'landing', component: LandingComponent },
+  // { path: 'landing', component: LandingComponent },
   { path: 'site', component: SiteComponent },
   { path: '',
     redirectTo: '/site',
     pathMatch: 'full'
   },
-  { path: '**', component: LandingComponent }
+  // { path: '**', component: LandingComponent }
 ];
 
 
 @NgModule({
   declarations: [
     AppComponent,
-    LandingComponent,
+    // LandingComponent,
     WorkComponent,
     SiteComponent
   ],

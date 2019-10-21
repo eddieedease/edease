@@ -239,7 +239,7 @@ h4,
 h5,
 h6 {
     color: #111111;
-    font-family: Poppins;
+    /* font-family: Poppins; */
 }
 h1 a,
 h2 a,
@@ -2515,7 +2515,7 @@ blockquote:before {
 
 .site-header {
     position: relative;
-    z-index: 99999;
+    z-index: 10;
 }
 .site-header ul,
 .site-header ol {
