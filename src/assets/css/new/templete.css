@@ -99,7 +99,7 @@
 	-moz-transition:all 1s ease 0.5s;
 }
 .main-slider .tp-shapewrapper.ov-tp{
-	background-color: rgba(0, 0, 0, 0.75);
+	background-color: #000000e0;
 }
 @media only screen and (max-width: 1200px) {
 	.slide-item-img img{

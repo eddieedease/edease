@@ -20,18 +20,17 @@
             "tsConfig": "src/tsconfig.app.json",
             "assets": [
               "src/favicon.ico",
-              "src/assets"
+              "src/assets",
+              "src/manifest.webmanifest"
             ],
             "styles": [
               "node_modules/bootstrap/dist/css/bootstrap.min.css",
               "node_modules/font-awesome/css/font-awesome.css",
               "src/assets/css/new/style.css",
               "src/assets/css/new/templete.css",
-              "src/assets/css/new/skin-7.css",
+              "src/assets/css/new/skin-7.css"
             ],
             "scripts": [
-              "src/assets/js/page.js",
-              "src/assets/js/script.js",
               "src/assets/js/new/jquery.min.js",
               "src/assets/js/new/custom.js",
               "src/assets/js/new/revolution/revolution/js/jquery.themepunch.tools.min.js",
@@ -63,7 +62,9 @@
               "aot": true,
               "extractLicenses": true,
               "vendorChunk": false,
-              "buildOptimizer": true
+              "buildOptimizer": true,
+              "serviceWorker": true,
+              "ngswConfigPath": "ngsw-config.json"
             }
           }
         },
@@ -97,7 +98,8 @@
             "scripts": [],
             "assets": [
               "src/favicon.ico",
-              "src/assets"
+              "src/assets",
+              "src/manifest.webmanifest"
             ]
           }
         },

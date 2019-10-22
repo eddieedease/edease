@@ -29,6 +29,8 @@ import { AppComponent } from './app.component';
 // import { LandingComponent } from './landing/landing.component';
 import { WorkComponent } from './work/work.component';
 import { SiteComponent } from './site/site.component';
+import { ServiceWorkerModule } from '@angular/service-worker';
+import { environment } from '../environments/environment';
 
 const appRoutes: Routes = [
   // { path: 'landing', component: LandingComponent },
@@ -67,7 +69,8 @@ const appRoutes: Routes = [
     JsonpModule,
     NgxPaginationModule,
     NgxGalleryModule,
-    NgxPageScrollModule
+    NgxPageScrollModule,
+    ServiceWorkerModule.register('ngsw-worker.js', { enabled: environment.production })
   ],
   providers: [EdSerService],
   bootstrap: [AppComponent]
