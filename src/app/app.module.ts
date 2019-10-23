@@ -12,6 +12,9 @@ import { TabsModule } from 'ngx-bootstrap/tabs';
 import { CollapseModule } from 'ngx-bootstrap/collapse';
 import { ButtonsModule } from 'ngx-bootstrap/buttons';
 
+
+import { NgxLoadingModule } from 'ngx-loading';
+
 import 'hammerjs';
 
 import { HttpModule, JsonpModule } from '@angular/http';
@@ -64,6 +67,7 @@ const appRoutes: Routes = [
     ModalModule.forRoot(),
     CollapseModule.forRoot(),
     ButtonsModule.forRoot(),
+    NgxLoadingModule.forRoot({}),
     HttpModule,
     HttpClientModule,
     JsonpModule,
