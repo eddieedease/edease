@@ -464,7 +464,7 @@ svg.radial-progress:nth-of-type(6n+1) circle { stroke: #007df1; }
 	color: #272a37;
 	text-align: center;
 	font-family: sans-serif;
-	background-color: #007df1;
+	background-color: #00ace0;
   }
   
   @keyframes Gradient {

@@ -2821,7 +2821,7 @@ blockquote:before {
 .logo-footer img {
     height: auto;
 	width: auto;
-	max-width: 140px;
+	max-width: 100px;
 }
 .logo-header span,
 .logo-footer span {
@@ -3689,7 +3689,7 @@ blockquote:before {
 	width:100%;
 }
 .header-transparent .main-bar{
-	background-color:rgba(0,0,0,0);
+	background-color:rgba(0, 0, 0, 0.87);
 	border-bottom: 1px solid rgba(255,255,255,0.05);
 }
 .header-transparent .header-nav .nav > li > a{
@@ -13194,7 +13194,7 @@ ol.commentlist li .star-rating {
 	}
 	.mo-left .header-nav .logo-header img{
 		max-width: unset;
-		width: 130px;
+		width: 100px;
 	}
 	.mo-left .navbar-toggler.open span{
 		background:#fff;

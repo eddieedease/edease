@@ -106,9 +106,8 @@
 									id="slide-101-layer-1" 
 									data-x="['center','center','center','center']" data-hoffset="['0','0','0','0']" 
 									data-y="['middle','middle','middle','middle']" data-voffset="['-40','-80','-80','-70']" 
-									data-fontsize="['50','50','40','20']"
-									data-lineheight="['90','80','70','60']"
-									data-letterspacing="['-5','-5','-2','-3']"
+									data-fontsize="['40','40','30','15']"
+									data-lineheight="['70','60','60','50']"
 									data-width="['700','none','768','260']"
 									data-height="none"
 									data-whitespace="['normal','nowrap','normal','normal']"
@@ -123,7 +122,7 @@
 									data-paddingbottom="[30,30,30,30]"
 									data-paddingleft="[0,0,0,0]"
 
-									style="z-index: 6; min-width: 700px; max-width: 700px; white-space: normal; font-size: 70px; line-height: 90px; font-weight: 500; color: #ffffff; letter-spacing: -5px;font-family:'Montserrat',sans-serif;">Alles voor het web<br><br><br></div>
+									style="z-index: 6; min-width: 700px; max-width: 700px; white-space: normal; font-size: 40px; line-height: 90px; font-weight: 400; color: #ffffff; font-family:'Montserrat',sans-serif;">Alles voor het WEB en meer<br><br><br></div>
 								
 								<!-- LAYER NR. 3 -->
 								<div class="tp-caption  " 
@@ -146,7 +145,7 @@
 									data-paddingbottom="[0,0,0,0]"
 									data-paddingleft="[0,0,0,0]"
 
-									style="z-index: 7; min-width: 640px; max-width: 640px; white-space: normal; font-size: 20px; line-height: 30px; font-weight: 400; color: rgba(255,255,255,0.75); font-family:'Montserrat',sans-serif;"><img src="assets/laptop-2.png" class="img-fluid" alt="Responsive image"></div>
+									style="z-index: 7; min-width: 640px; max-width: 640px; white-space: normal; font-size: 15px; line-height: 30px; font-weight: 200; color: rgba(255,255,255,0.75); font-family:'Montserrat',sans-serif;"><img src="assets/laptop-2.png" class="img-fluid" alt="Responsive image"></div>
 
 								
 							</li>
@@ -171,7 +170,7 @@
 						</div>
 						<div class="icon-content">
 							<h4 class="dez-tilte">Ontwerp</h4>
-							<p>Drukwerk & digitaal.<br> Van het ontwerpen van logo's tot animaties en illustraties</p>
+							<p>Zowel digitaal als drukwerk.<br> Van het ontwerpen van logo's tot en illustraties en videoanimaties</p>
 						</div>
                     </div>
                     <div class="icon-bx-wraper bg-primary p-lr30 about-scale text-white col-md-4 col-lg-4 p-tb30">
@@ -198,7 +197,7 @@
 						</div>
 						<div class="icon-content">
 							<h4 class="dez-tilte">E-learning</h4>
-							<p>Via <a href="https://inervo.nl" target="_blanc" style="color:#eaaf06 !important">Inervo.nl</a>. Een eigen ontwikkeld leerplatform.</p>
+							<p>Via het zelf ontwikkelde leerplatform (LMS) <a href="https://inervo.nl" target="_blanc" style="color:#eaaf06 !important">Inervo.nl</a>, kan digitaal leren voor bedrijven aangeboden worden.</p>
                         </div>
                     </div>
 				</div>
@@ -216,7 +215,7 @@
 							<h3 style="color:#215379 !important">Over</h3><br>
 					  <p>Welkom, als ZZP'er ondersteun ik bedrijven met het bedenken, ontwerpen en realiseren van multimediaoplossingen. Ik heb al 10+ jaar ervaring op het gebied van Webdevelopment & Digitaal ontwerp en heb al voor vele tevreden klanten mogen werken.
 						<br><br>
-						Ik houd mij vooral bezig met op maat gemaakte webapplicaties. Andere opdrachten variëren van het opzetten voor een website, opmaken van flyers, productie van een videoanimatie, tot het maken van een game. Deze mix van ontwerp en techniek zorgt voor brede inzetbaarheid is tevens mijn kracht
+						Ik houd mij vooral bezig met op maat gemaakte webapplicaties. Andere opdrachten variëren van het opzetten voor een website, opmaken van flyers, productie van een videoanimatie, tot het maken van een game. Deze mix van ontwerp en techniek zorgt voor brede inzetbaarheid is tevens mijn kracht als zelfstandige.
 						<br><br>
 						Neem gerust <b><a pageScroll href="#contact" style="color:#eaaf06 !important">contact</a></b> op als je denkt dat we iets voor elkaar kunnen betekenen.</p>
 						
@@ -313,7 +312,7 @@
 		<section id="work" class="section overflow-hidden workk">
 				<div  class="container" style="padding-top: 80px; padding-bottom: 80px;">
 				  <br>
-					<h4 style="color:white">Werk</h4><br>
+					<h4 style="color:white">Werk</h4><br><br>
 				  
 			
 				  <!-- <div data-provide="shuffle">
@@ -339,8 +338,8 @@
 			
 				  <div class="row gap-y gap-2">
 			
-			
-					<div *ngFor="let work of workArray| paginate: { itemsPerPage: 12, currentPage: p } ;let i = index "
+					<br>
+					<div *ngFor="let work of workArray| paginate: { itemsPerPage: 8, currentPage: p } ;let i = index "
 					  class="col-6 col-lg-3" [attr.data-groups]="work.tags">
 					  <a (click)="openModal(workmodal, i)" class="portfolio-1"
 						style="cursor: pointer;border:1px; border-radius: 10px">
@@ -352,13 +351,13 @@
 					  </a>
 					  <br>
 					</div>
-				  </div>
+				  </div><br>
 				  <div class="text-center">
 					<pagination-controls (pageChange)="p = $event" previousLabel="Vorige" nextLabel="Volgende">
 					</pagination-controls>
 				  </div>
 				  <!-- </div> -->
-			
+				  <br>
 			
 				</div>
 			  </section>
@@ -419,7 +418,7 @@
 		<div class="section-full content-inner bg-white">
 			<div class="container">
 				<div class="section-head text-black text-center">
-					<h2 class="title-head m-b0">BANG!</h2>
+					<h4 class=" m-b0">Interesses</h4><br>
 				</div>
 				<div class="row">
 					<div class="col-lg-3 col-md-6 col-sm-6">
@@ -429,18 +428,7 @@
 							</div>
 							<div class="icon-content m-t30">
 								<h5 class="dez-tilte text-uppercase">E-Learning</h5>
-								<p>Lorem ipsum dolor sit amet, consectetuer adipiscing  sed diam nibh euismod.</p>
-							</div>
-						</div>
-					</div>
-					<div class="col-lg-3 col-md-6 col-sm-6">
-						<div class="text-center wow zoomIn icon-hover-bx" data-wow-delay="0.4s"  data-wow-duration="1s">
-							<div class="icon-bx-xl text-primary bg-white radius border-2"> 
-								<a class="icon-cell icon-md"><i class="fa fa-code fa-2x"></i></a> 
-							</div>
-							<div class="icon-content m-t30">
-								<h5 class="dez-tilte text-uppercase">Koppelingen</h5>
-								<p>Een succesvolle koppeling tussen systemen realiseren is vaak een lastig</p>
+								<p>Ik houd mij veel bezig met het verbeteren van digitaal leren. Naast het eigen ontwikkelde <a href="https://inervo.nl" target="_blanc" style="color:#eaaf06 !important">Inervo.nl</a>, ben ik veel actief voor leeroplossingen binnen de zorg</p>
 							</div>
 						</div>
 					</div>
@@ -450,23 +438,37 @@
 								<a class="icon-cell icon-md"><i class="fa fa-cube fa-2x"></i></a> 
 							</div>
 							<div class="icon-content m-t30">
-								<h5 class="dez-tilte text-uppercase">Open Source</h5>
-								<p>Lorem ipsum dolor sit amet, consectetuer adipiscing  sed diam nibh euismod.</p>
+								<h5 class="dez-tilte text-uppercase">Open-Source</h5>
+								<p>Als groot liefhebber van de Open-Source community, werk ik graag vanuit de deze mentaliteit om te delen en te leren van elkaar</p>
 							</div>
 						</div>
 					</div>
+
+					<div class="col-lg-3 col-md-6 col-sm-6">
+						<div class="text-center wow zoomIn icon-hover-bx" data-wow-delay="0.4s"  data-wow-duration="1s">
+							<div class="icon-bx-xl text-primary bg-white radius border-2"> 
+								<a class="icon-cell icon-md"><i class="fa fa-code fa-2x"></i></a> 
+							</div>
+							<div class="icon-content m-t30">
+								<h5 class="dez-tilte text-uppercase">Webtechnologie</h5>
+								<p>Het internet is iets dat bijna altijd om ons heen is, maar wat ook constant onderhevig aan verandering is.</p>
+							</div>
+						</div>
+					</div>
+					
 					<div class="col-lg-3 col-md-6 col-sm-6">
 						<div class="text-center wow zoomIn icon-hover-bx" data-wow-delay="0.8s"  data-wow-duration="1s">
 							<div class="icon-bx-xl text-primary bg-white radius border-2"> 
 								<a class="icon-cell icon-md"><i class="fa fa-gamepad fa-2x"></i></a> 
 							</div>
 							<div class="icon-content m-t30">
-								<h5 class="dez-tilte text-uppercase">Gaming</h5>
-								<p>Lorem ipsum dolor sit amet, consectetuer adipiscing  sed diam nibh euismod.</p>
+								<h5 class="dez-tilte text-uppercase">Play</h5>
+								<p>Ik geloof dat als je spelelementen juist verwerkt in systemen, het rendement van de interactie groter is.</p>
 							</div>
 						</div>
 					</div>
-				</div>
+					<br>
+				</div><br><br>
 			</div>
 		</div>
 		<!-- Contact Form -->
@@ -477,14 +479,14 @@
 						<div class="wow fadeInLeft" data-wow-delay="0.4s"  data-wow-duration="1s">
 							<div class="support-form support-box-form bg-white">
 								<div class="support-title m-b30">
-									<h6 class="text-uppercase font-weight-500 m-b10">Een vraag? Of gewoon omdat?</h6>
+									<h6 class="text-uppercase font-weight-500 m-b10">Een vraag? Of gewoon omdat?</h6><br>
 									<h3 class="font-40 font-weight-400 m-tb0">Neem contact op!</h3>
 								</div>
 								
 										<a class="btn btn-lg btn-round btn-primary" HREF="mailto:eddie@edease.nl">Stuur een mailtje</a>
 										<br><br>
-										<p>Ik reageer zo snel mogelijk</p><br>
-										<hr class="w-5 my-7">
+										<p>Ik reageer zo snel mogelijk!</p><br>
+										<hr class="w-5 my-7"><br><br>
 										<h4 class="mb-6" style="color:#215379 !important"><strong>Bedankt</strong></h4>
 										<p class="lead text-muted" style="color:#215379">dat je een kijkje hebt genomen op de site <i
 											class="fa fa-heart" style="color:blue"></i></p>

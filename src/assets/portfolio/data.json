@@ -1,7 +1,26 @@
-[{
+[
+  {
+    "title": "Inervo (LMS)",
+    "customer": "DTS@ctief en EDease",
+    "wysignl": "Inervo is een LMS (Learning Management System), ofwel een digitaal Leerplein. Via <a href='https://inervo.nl/' target='blank'>Inervo</a> kunnen organisaties onderwijs afnemen en het hun werknemers digitaal opleiden. Het is ook mogelijk om zelf cursussen in elkaar te zetten met eigen lesstof. Het is een webapp, dus via elk apparaat wat een internetbrowser heeft kun je het benaderen. <br><br>Inervo is ontwikkeld omdat ik samen met <a href='https://dtsactief.nl/' target='blank'>DTS@ctief</a> een no-nonsense leeroplossing aan wou kunnen bieden die let het op gebruiksgemak en relatief lage kosten voor gebruik. E-Learning voor iedereen!",
+    "wysigen": "<b>Blabla</b> <br> Owyeaaa",
+    "cover": "assets/portfolio/inervo0.png",
+    "tags": "app",
+    "images": ["assets/portfolio/inervo0.png", "assets/portfolio/inervo1.png", "assets/portfolio/inervo3.png", "assets/portfolio/inervo2.png"]
+  },
+  {
+    "title": "Renurse",
+    "customer": "RENursE",
+    "wysignl": "Voor <a href='https://renurse.nl/' target='blank'>RENursE.nl</a>, een unieke samenwerking van verpleegkundig onderzoekers, heb ik een website mogen maken & een logo mogen ontwerpen. <br><br> Door middel van een eigen op maat gemaakte CMS kunnen ze hun eigen website up-to-date houden. Ook zit er een inlog systeem in waarmee ze veilig documenten met elkaar kunnen delen<br><br><br>",
+    "wysigen": "<b>Blabla</b> <br> Owyeaaa",
+    "cover": "assets/portfolio/renurse1.png",
+    "tags": "app",
+    "images": ["assets/portfolio/renurse1.png", "assets/portfolio/renurse2.png", "assets/portfolio/renurse3.png"]
+  },
+  {
     "title": "Askme",
     "customer": "Noordhoff-Health & PPZ",
-    "wysignl": "Askme is een webapplicatie waarin medewerkers van een (zorg)instelling, snel handig informatie op kunnen zoeken. AskMe als tool haakt in op de noodzaak van EPSS (Electronic Perfomance support) op de werkvloer. Afnemers kunnen hun eigen objecten aanmaken en beheren. Dit alles draait in een webomgeving zodat elk apparaat met een browser ermee kan verbinden.<br><br>Binnen het hele <a href='https://askme-app.nl/ ' target='blank'>AskMe</a> project heb ik samengewerkt met Noordhoff-Health en Profportaal Zorg en heb ik gewerkt aan een SPA (Single Page Application) met behulp van Angular.",
+    "wysignl": "<a href='https://askme.noordhoff.nl/' target='blank'>AskMe</a> is een webapplicatie waarin medewerkers van een (zorg)instelling, snel handig informatie op kunnen zoeken. AskMe als tool haakt in op de noodzaak van EPSS (Electronic Perfomance support) op de werkvloer. Afnemers kunnen hun eigen objecten aanmaken en beheren. Dit alles draait in een webomgeving zodat elk apparaat met een browser ermee kan verbinden.<br><br>Binnen het hele <a href='https://askme.noordhoff.nl/' target='blank'>AskMe</a> project heb ik samengewerkt met Noordhoff-Health en Profportaal Zorg en heb ik gewerkt aan een SPA (Single Page Application) met behulp van Angular.",
     "wysigen": "<b>Blabla</b> <br> Owyeaaa",
     "cover": "assets/portfolio/askme0.png",
     "tags": "app",
@@ -28,7 +47,7 @@
   {
     "title": "Lodge aan zee",
     "customer": "Lodgeaanzee.nl",
-    "wysignl": "<a href='http://www.lodgeaanzee.nl' target='blank'>LodgeaanZee.nl</a> verhuurt een vakantiehuisje en ik heb voor hun een site verzorgd met een eigen custom CMS. De afbeeldingen en teksten kunnen ze zelf wijzigen en er is ook een bookingssyteem in ingebouwd.",
+    "wysignl": "<a href='http://www.lodgeaanzee.nl' target='blank'>LodgeaanZee.nl</a> verhuurt een vakantiehuisje en ik heb voor hun een site verzorgd met een eigen custom CMS (Content management system).<br><br>De afbeeldingen en teksten kunnen ze zelf wijzigen en er is ook een bookingssyteem in ingebouwd.",
     "wysigen": "<b>Blabla</b> <br> Owyeaaa",
     "cover": "assets/portfolio/lodgeaanzee1.png",
     "tags": "app",
