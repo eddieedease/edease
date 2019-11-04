@@ -29,7 +29,7 @@ import {
 } from './ed-ser.service';
 
 import { AppComponent } from './app.component';
-// import { LandingComponent } from './landing/landing.component';
+import { LandingComponent } from './landing/landing.component';
 import { WorkComponent } from './work/work.component';
 import { SiteComponent } from './site/site.component';
 import { ServiceWorkerModule } from '@angular/service-worker';
@@ -49,7 +49,7 @@ const appRoutes: Routes = [
 @NgModule({
   declarations: [
     AppComponent,
-    // LandingComponent,
+    LandingComponent,
     WorkComponent,
     SiteComponent
   ],
