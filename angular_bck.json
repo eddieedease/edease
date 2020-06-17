@@ -26,22 +26,24 @@
             "styles": [
               "node_modules/bootstrap/dist/css/bootstrap.min.css",
               "node_modules/font-awesome/css/font-awesome.css",
-              "src/assets/ass/css/animate.min.css",
-              "src/assets/ass/css/slicknav.min.css",
-              "src/assets/ass/css/magnific-popup.css",
-              "src/assets/ass/css/owl.carousel.min.css",
-              "src/assets/ass/fonts/flaticon.css",
-              "src/assets/ass/css/style.css",
-              "src/assets/ass/css/responsive.css"
+              "src/assets/css/new/style.css",
+              "src/assets/css/new/templete.css",
+              "src/assets/css/new/skin-7.css"
             ],
             "scripts": [
               "src/assets/js/new/jquery.min.js",
-              "src/assets/ass/js/scrollIt.min.js",
-              "src/assets/ass/js/jquery.slicknav.min.js",
-              "src/assets/ass/js/owl.carousel.min.js",
-              "src/assets/ass/js/jquery.magnific-popup.min.js",
-              "src/assets/ass/js/plugins.js",
-              "src/assets/ass/js/main.js"
+              "src/assets/js/new/custom.js",
+              "src/assets/js/new/revolution/revolution/js/jquery.themepunch.tools.min.js",
+              "src/assets/js/new/revolution/revolution/js/jquery.themepunch.revolution.min.js",
+              "src/assets/js/new/revolution/revolution/js/extensions/revolution.extension.slideanims.min.js",
+              "src/assets/js/new/revolution/revolution/js/extensions/revolution.extension.actions.min.js",
+              "src/assets/js/new/revolution/revolution/js/extensions/revolution.extension.layeranimation.min.js",
+              "src/assets/js/new/revolution/revolution/js/extensions/revolution.extension.kenburn.min.js",
+              "src/assets/js/new/revolution/revolution/js/extensions/revolution.extension.navigation.min.js",
+              "src/assets/js/new/revolution/revolution/js/extensions/revolution.extension.parallax.min.js",
+
+              "src/assets/js/new/rev.slider.js",
+              "src/assets/js/new/wow/wow.js"
             ]
           },
           "configurations": {

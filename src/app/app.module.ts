@@ -34,10 +34,12 @@ import { WorkComponent } from './work/work.component';
 import { SiteComponent } from './site/site.component';
 import { ServiceWorkerModule } from '@angular/service-worker';
 import { environment } from '../environments/environment';
+import { NewComponent } from './new/new.component';
 
 const appRoutes: Routes = [
   // { path: 'landing', component: LandingComponent },
   { path: 'site', component: SiteComponent },
+  { path: 'new', component: NewComponent },
   { path: '',
     redirectTo: '/site',
     pathMatch: 'full'
@@ -51,7 +53,8 @@ const appRoutes: Routes = [
     AppComponent,
     LandingComponent,
     WorkComponent,
-    SiteComponent
+    SiteComponent,
+    NewComponent
   ],
   imports: [
     RouterModule.forRoot(
