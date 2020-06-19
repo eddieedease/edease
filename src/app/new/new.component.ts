@@ -7,9 +7,18 @@ import { Component, OnInit } from '@angular/core';
 })
 export class NewComponent implements OnInit {
 
+  anio: number = new Date().getFullYear();
+
+  loading = true;
+
   constructor() { }
 
   ngOnInit() {
+
+    setTimeout(() => {
+      this.loading = false;
+  }, 1000);
+  
   }
 
 }

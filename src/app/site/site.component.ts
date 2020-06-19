@@ -51,7 +51,7 @@ export class SiteComponent implements OnInit {
   @ViewChild(WorkComponent, {static: true}) workComponent: WorkComponent;
 
 
-  loading = true;
+  loading = false;
 
   // Ref to modal
   modalRef: BsModalRef;
@@ -80,12 +80,12 @@ export class SiteComponent implements OnInit {
   }
 
   ngOnInit() {
-    jQuery(document).ready(function() {
-      dz_rev_slider_7();
-    });
-    setTimeout(() => {
-      this.loading = false;
-  }, 1000);
+  //   jQuery(document).ready(function() {
+  //     dz_rev_slider_7();
+  //   });
+  //   setTimeout(() => {
+  //     this.loading = false;
+  // }, 1000);
   }
 
   openModal(template: TemplateRef < any > , _index) {

@@ -677,7 +677,7 @@ a.cta-btn,
   background-position: inherit;
 }
 .hero-area.home-2 {
-  /* background-image: url(../img/hero2.png); */
+  background-image: url(/assets/hero2.png);
   padding-top: 180px;
 }
 .hero-area.home-3 {

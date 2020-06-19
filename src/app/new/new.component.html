@@ -1,7 +1,7 @@
  <!-- Main Content site -->
- <div class="main-site">
+ <div class="main-site" data-scroll-index="00">
     <!--preloader  -->
-    <div id="loader-wrapper">
+    <div *ngIf="loading" id="loader-wrapper">
        <div id="loader"></div>
        <div class="loader-section section-left"></div>
        <div class="loader-section section-right"></div>
@@ -14,7 +14,7 @@
              <div class="col-md-2 d-flex align-items-center">
                 <div class="logo">
                    <a href="index2.html">
-                      <img src="assets/img/logo-2.png" alt="">
+                      <img src="assets/logo1b.png" alt="">
                    </a>
                 </div>
              </div>
@@ -61,12 +61,7 @@
        <div class="container">
           <div class="row">
              <div class="col-md-8 offset-md-2 text-center">
-                <div class="hero-content">
-                   <h3>Easy to build landing</h3>
-                   <p>See all your relevant tracked data at the glance in one place. With the new daily view you can easily review</p> <a href="#" class="hero-btn orange">Try it Free for 30 Days</a>
-                   <a href="#" class="hero-btn-2nd">Version 2.0 ∙ Release Notes</a>
-                   <img src="assets/img/hero2-single.png" alt="">
-                </div>
+                 
              </div>
           </div>
        </div>
@@ -90,7 +85,7 @@
                    <div class="col-md-6">
                       <div class="feature-box">
                          <div class="feature-icon">
-                            <img src="assets/img/icon-img1.png" alt="">
+                            <img src="assets/icon-img1.png" alt="">
                          </div>
                          <h4>Automatic backups</h4>
                          <p>It doesn't matter if you are in an office or on an airplane. You will never lose a second just because there is no internet connection.</p>
@@ -101,7 +96,7 @@
                    <div class="col-md-6">
                       <div class="feature-box">
                          <div class="feature-icon">
-                            <img src="assets/img/icon-img2.png" alt="">
+                            <img src="assets/icon-img2.png" alt="">
                          </div>
                          <h4>Best Privacy for document</h4>
                          <p>It doesn't matter if you are in an office or on an airplane. You will never lose a second just because there is no internet connection.</p>
@@ -112,7 +107,7 @@
                    <div class="col-md-6">
                       <div class="feature-box">
                          <div class="feature-icon">
-                            <img src="assets/img/icon-img3.png" alt="">
+                            <img src="assets/icon-img3.png" alt="">
                          </div>
                          <h4>Easily manage works.</h4>
                          <p>It doesn't matter if you are in an office or on an airplane. You will never lose a second just because there is no internet connection.</p>
@@ -123,7 +118,7 @@
                    <div class="col-md-6">
                       <div class="feature-box">
                          <div class="feature-icon">
-                            <img src="assets/img/icon-img4.png" alt="">
+                            <img src="assets/icon-img4.png" alt="">
                          </div>
                          <h4>Works completely offline</h4>
                          <p>It doesn't matter if you are in an office or on an airplane. You will never lose a second just because there is no internet connection.</p>
@@ -165,21 +160,21 @@
                       </div>
                       <div class="overview-lists">
                          <div class="single-list">
-                            <img src="assets/img/overview-list1.png" alt="">
+                            <img src="assets/overview-list1.png" alt="">
                             <div class="list-content">
                                <h3> Offline browsing</h3>
                                <p>It doesn't matter if you are in an office or on an airplane. You will never lose a second just because there is no internet connection.</p>
                             </div>
                          </div>
                          <div class="single-list">
-                            <img src="assets/img/overview-list2.png" alt="">
+                            <img src="assets/overview-list2.png" alt="">
                             <div class="list-content">
                                <h3> Manage works</h3>
                                <p>It doesn't matter if you are in an office or on an airplane. You will never lose a second just because there is no internet connection.</p>
                             </div>
                          </div>
                          <div class="single-list">
-                            <img src="assets/img/overview-list3.png" alt="">
+                            <img src="assets/overview-list3.png" alt="">
                             <div class="list-content">
                                <h3> backups document</h3>
                                <p>It doesn't matter if you are in an office or on an airplane. You will never lose a second just because there is no internet connection.</p>
@@ -190,7 +185,7 @@
                 </div>
                 <div class="col-md-6">
                    <div class="overview-image wide-box">
-                      <img src="assets/img/overview-1nd.png" alt="">
+                      <img src="assets/overview-1nd.png" alt="">
                    </div>
                 </div>
              </div>
@@ -229,7 +224,7 @@
                 </div>
                 <div class="col-md-6">
                    <div class="overview-image">
-                      <img src="assets/img/overview-3nd.png" alt="">
+                      <img src="assets/overview-3nd.png" alt="">
                    </div>
                 </div>
              </div>
@@ -238,7 +233,7 @@
              <div class="row">
                 <div class="col-md-6">
                    <div class="overview-image">
-                      <img src="assets/img/overview-2nd.png" alt="">
+                      <img src="assets/overview-2nd.png" alt="">
                    </div>
                 </div>
                 <div class="col-md-6">
@@ -273,7 +268,7 @@
                          <!-- Single Testimonial -->
                          <div class="single-testimonial style-two">
                             <div class="author-image">
-                               <img src="assets/img/feedback1.png" alt="">
+                               <img src="assets/feedback1.png" alt="">
                             </div>
                             <div class="testimonial-content">
                                <p>They knows when you design in your favorite layout app, have your project files open, search for inspiration or have a meeting with your client.</p>
@@ -292,7 +287,7 @@
                          <!-- Single Testimonial -->
                          <div class="single-testimonial style-two">
                             <div class="author-image">
-                               <img src="assets/img/feedback2.png" alt="">
+                               <img src="assets/feedback2.png" alt="">
                             </div>
                             <div class="testimonial-content">
                                <p>They knows when you design in your favorite layout app, have your project files open, search for inspiration or have a meeting with your client.</p>
@@ -311,7 +306,7 @@
                          <!-- Single Testimonial -->
                          <div class="single-testimonial style-two">
                             <div class="author-image">
-                               <img src="assets/img/feedback3.png" alt="">
+                               <img src="assets/feedback3.png" alt="">
                             </div>
                             <div class="testimonial-content">
                                <p>They knows when you design in your favorite layout app, have your project files open, search for inspiration or have a meeting with your client.</p>
@@ -513,16 +508,16 @@
                    <div class="footer-bottom">
                       <div class="footer-logo">
                          <a href="index.html">
-                            <img src="assets/img/logo-2.png" alt="">
+                            <img src="assets/logo1b.png" alt="">
                          </a>
                       </div>
-                      <p class="copyright-text">2019 Copyright Xprosik . All Rights Reserved</p>
+                      <p class="copyright-text">{{anio}} Copyright EDease</p>
                    </div>
                 </div>
              </div>
           </div>
           <!-- Scroll To Top -->
-          <a href="#" class="scrollup"><i class="fa fa-angle-double-up"></i></a>
+          <a  class="scrollup" data-scroll-nav="00"><i class="fa fa-angle-double-up"></i></a>
        </div>
     </footer>
     <!-- Footer Area End!-->

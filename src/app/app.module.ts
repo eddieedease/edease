@@ -59,7 +59,7 @@ const appRoutes: Routes = [
   imports: [
     RouterModule.forRoot(
       appRoutes,
-      { useHash: true } // <-- debugging purposes only
+      { useHash: false } // <-- debugging purposes only
     ),
     BrowserModule,
     FormsModule,
