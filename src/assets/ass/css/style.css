@@ -160,7 +160,7 @@ p {
 }
 .sticky.home-2,
 .sticky.home-4 {
-  background: #662DE2;
+  background: #2600be;
 }
 .sticky.home-1 {
   background: #ED2375;
@@ -729,10 +729,10 @@ a.hero-btn-2nd {
   color: #fff;
 }
 .hero-area.home-2 .hero-content p {
-  padding: 20px 0 35px;
+  padding: 20px 0 10px;
 }
 .hero-area.home-2 .hero-content h3 {
-  font-size: 60px;
+  font-size: 40px;
 }
 .hero-area.home-2 .hero-content a.hero-btn-2nd {
   display: block;
