@@ -248,6 +248,60 @@
     </div>
     <!-- Overvew Area End!-->
 
+    <section id="work" class="section overflow-hidden workk">
+      <div  class="container" style="padding-top: 80px; padding-bottom: 80px;">
+        <br>
+         <h4 style="color:white">Werk</h4><br><br>
+        
+   
+        <!-- <div data-provide="shuffle">
+         <ul class="nav nav-center nav-bold nav-uppercase nav-slash mb-7" data-shuffle="filter">
+           <li class="nav-item">
+            <a class="nav-link active" href="#" data-shuffle="button">Alles</a>
+           </li>
+           <li class="nav-item">
+            <a class="nav-link" href="#" data-shuffle="button" data-group="app">Applicaties</a>
+           </li>
+           <li class="nav-item">
+            <a class="nav-link" href="#" data-shuffle="button" data-group="video">Video</a>
+           </li>
+           <li class="nav-item">
+            <a class="nav-link" href="#" data-shuffle="button" data-group="design">Ontwerp</a>
+           </li>
+           <li class="nav-item">
+            <a class="nav-link" href="#" data-shuffle="button" data-group="games">Games</a>
+           </li>
+         </ul> -->
+   
+   
+   
+        <div class="row gap-y gap-2">
+   
+         <br>
+         <div *ngFor="let work of workArray| paginate: { itemsPerPage: 8, currentPage: p } ;let i = index "
+           class="col-6 col-lg-3" [attr.data-groups]="work.tags">
+           <a (click)="openModal(workmodal, i)" class="portfolio-1"
+            style="cursor: pointer;border:1px; border-radius: 10px">
+            <img [src]="work.cover" style="cursor: pointer;border:1px;border-radius: 10px;">
+            <div class="portfolio-detail">
+               <br>
+              <h5 style="color: white;">{{work.title}}</h5>
+            </div>
+           </a>
+           <br>
+         </div>
+        </div><br>
+        <div class="text-center">
+         <pagination-controls (pageChange)="p = $event" previousLabel="Vorige" nextLabel="Volgende">
+         </pagination-controls>
+        </div>
+        <!-- </div> -->
+        <br>
+   
+      </div>
+     </section>
+     
+
     <!-- Testimonial Area Start-->
     <div class="testimonail-area home-2">
        <div class="container">
@@ -521,3 +575,27 @@
     <!-- Footer Area End!-->
 
  </div>
+
+
+
+
+
+ <ng-template #workmodal style="max-width: 100%">
+	<div>
+	  <button type="button" class="close pull-right" aria-label="Close" (click)="modalRef.hide()">
+		<span aria-hidden="true">&times;</span>
+	  </button>
+	  <div>
+  
+		<div class="text-center"><br>
+		  <h4>Werk</h4>
+		</div>
+  
+  
+	  </div>
+	  <div class="modal-body">
+		<app-work></app-work>
+	  </div>
+	</div>
+  
+  </ng-template>
