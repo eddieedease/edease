@@ -40,8 +40,9 @@ const appRoutes: Routes = [
   // { path: 'landing', component: LandingComponent },
   { path: 'site', component: SiteComponent },
   { path: 'new', component: NewComponent },
+  { path: '**', component: NewComponent },
   { path: '',
-    redirectTo: '/site',
+    redirectTo: '/new',
     pathMatch: 'full'
   },
   // { path: '**', component: LandingComponent }

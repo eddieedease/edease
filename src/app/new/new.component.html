@@ -1,5 +1,5 @@
  <!-- Main Content site -->
- <div class="main-site" data-scroll-index="00">
+ <div class="main-site" data-scroll-index="0">
     <!--preloader  -->
     <div *ngIf="loading" id="loader-wrapper">
        <div id="loader"></div>
@@ -13,7 +13,8 @@
           <div class="row">
              <div class="col-md-2 d-flex align-items-center">
                 <div class="logo">
-                      <img src="assets/logo1b.png" alt="">
+                      <!-- <img src="assets/logo1b.png" alt=""> -->
+                      <h3 style="color:white">EDease</h3>
                 </div>
              </div>
              <div class="col-md-10">
@@ -30,9 +31,9 @@
                                <li><a href="index4.html">Apps Landing </a></li>
                             </ul> -->
                          </li>
-                         <li><a  data-scroll-nav="1">Over</a>
+                         <li><a  data-scroll-nav="2">Over</a>
                          </li>
-                         <li><a data-scroll-nav="2">Diensten</a>
+                         <li><a data-scroll-nav="1">Diensten</a>
                          </li>
                          <li><a  data-scroll-nav="3">Wauw</a>
                          </li>
@@ -53,18 +54,52 @@
       <div class="container">
          <div class="row">
             <div class="col-md-8 offset-md-2 text-center">
-               <div class="hero-content"><br><br>
-                  <p>maatwerk in</p> 
-                  <h3>Development & Design</h3>
+               
+               <div class="hero-content"><br><h3>Development & Design</h3><br><img src="assets/logo1b.png" alt="" style="max-width:400px"><br><br> 
+                  
                   <!-- <a href="#" class="hero-btn-2nd">Version 2.0 ∙ Release Notes</a> -->
-                  <img src="assets/floating.png" alt="" style="max-width:400px"><br><br><br><br><br>
+                  <br><br><br><br><br>
                   <!-- <a href="#" class="hero-btn orange" style='border-radius: 15px;'>Try it Free for 30 Days</a> -->
                </div>
             </div>
          </div>
       </div>
+      
    </div>
    <!-- Hero Area End!-->
+
+   <!-- Overvew List Area Start-->
+   <div class="overvew-area-home-2" data-scroll-index="2">
+      <div class="container">
+         <br><br><br>
+         <div class="signle-overview one">
+            <div class="row">
+               <div class="col-md-6">
+                  <div class="overview-content-home2">
+                     <div class="section-title text-left">
+                        <h2>Over</h2>
+                        <p>Welkom, als ZZP'er ondersteun ik bedrijven met het bedenken, ontwerpen en realiseren van multimediaoplossingen. Ik heb al 10+ jaar ervaring op het gebied van Webdevelopment & Digitaal ontwerp en heb al voor vele tevreden klanten mogen werken.
+                           <br><br>
+                           Ik houd mij vooral bezig met op maat gemaakte webapplicaties. Andere opdrachten variëren van het opzetten voor een website, opmaken van flyers, productie van een videoanimatie, tot het maken van een game. Deze mix van ontwerp en techniek zorgt voor brede inzetbaarheid is tevens mijn kracht als zelfstandige.
+                           <br><br>
+                           Neem gerust contact op als je denkt dat we iets voor elkaar kunnen betekenen.</p>
+                     </div>
+                    
+
+
+                  </div>
+               </div>
+               <div class="col-md-6">
+                  <div class="overview-image wide-box">
+                     <img src="assets/overview-1nd.png" alt="">
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+   </div>
+   <!-- Overvew List Area End!-->
+
 
     <!-- Feature Area Start-->
     <div class="feature-area section-padding" data-scroll-index="1">
@@ -145,52 +180,7 @@
     </div>
     <!-- Feature Area End!-->
 
-    <!-- Overvew List Area Start-->
-    <div class="overvew-area-home-2" data-scroll-index="2">
-       <div class="container">
-          <div class="signle-overview one">
-             <div class="row">
-                <div class="col-md-6">
-                   <div class="overview-content-home2">
-                      <div class="section-title text-left">
-                         <h2>A faster, easier to create organized lists</h2>
-                         <p>Once you open your working file or application, our app will start the timer for you automatically.</p>
-                      </div>
-                      <div class="overview-lists">
-                         <div class="single-list">
-                            <img src="assets/overview-list1.png" alt="">
-                            <div class="list-content">
-                               <h3> Offline browsing</h3>
-                               <p>It doesn't matter if you are in an office or on an airplane. You will never lose a second just because there is no internet connection.</p>
-                            </div>
-                         </div>
-                         <div class="single-list">
-                            <img src="assets/overview-list2.png" alt="">
-                            <div class="list-content">
-                               <h3> Manage works</h3>
-                               <p>It doesn't matter if you are in an office or on an airplane. You will never lose a second just because there is no internet connection.</p>
-                            </div>
-                         </div>
-                         <div class="single-list">
-                            <img src="assets/overview-list3.png" alt="">
-                            <div class="list-content">
-                               <h3> backups document</h3>
-                               <p>It doesn't matter if you are in an office or on an airplane. You will never lose a second just because there is no internet connection.</p>
-                            </div>
-                         </div>
-                      </div>
-                   </div>
-                </div>
-                <div class="col-md-6">
-                   <div class="overview-image wide-box">
-                      <img src="assets/overview-1nd.png" alt="">
-                   </div>
-                </div>
-             </div>
-          </div>
-       </div>
-    </div>
-    <!-- Overvew List Area End!-->
+    
 
     <!-- video overview Area start-->
     <div class="video-overview home-2">
@@ -216,8 +206,9 @@
                    <div class="overview-content">
                       <div class="overview-icon"> <i class="fa fa-commenting-o" aria-hidden="true"></i>
                       </div>
-                      <h2>Quick messaging with clients</h2>
-                      <p>It doesn't matter if you are in an office or on an airplane. You will never lose a second just because there is no internet connection. In addition to Auto-tracking you can still use the traditional.</p>
+                      <h2>Maatwerk</h2>
+                      <p>Het wereld wijde web is veel veranderd de afgelopen tijd. Ik heb al vele jaren ervaring met alles wat zich afspeelt op het web, en pas de nieuwste en laatste technieken toe in mijn werk. De sites/applicaties die ik codeer kunnen op elk device worden bekeken en zijn razendsnel.
+                        </p>
                    </div>
                 </div>
                 <div class="col-md-6">
@@ -238,8 +229,7 @@
                    <div class="overview-content">
                       <div class="overview-icon"> <i class="fa fa-clock-o" aria-hidden="true"></i>
                       </div>
-                      <h2>Easily manage <br> your works</h2>
-                      <p>It doesn't matter if you are in an office or on an airplane. You will never lose a second just because there is no internet connection. In addition to Auto-tracking you can still use the traditional.</p>
+                      <p>Als developer ontwikkel ik full-stack. Dat wil zeggen dat ik zowel de front-end als de back-end kan verzorgen. Compleet zelfstandig, of ik kan meedraaien in een team.</p>
                    </div>
                 </div>
              </div>
@@ -248,10 +238,10 @@
     </div>
     <!-- Overvew Area End!-->
 
-    <section id="work" class="section overflow-hidden workk">
-      <div  class="container" style="padding-top: 80px; padding-bottom: 80px;">
+    <section id="workk" data-scroll-index="3" class="section overflow-hidden workk" style="background-image: url(/assets/hero2.png);">
+      <div  class="container" style="padding-top: 80px; padding-bottom: 10px;">
         <br>
-         <h4 style="color:white">Werk</h4><br><br>
+         <h3 class="text-center" style="color: white;">Werk</h3><br><br>
         
    
         <!-- <div data-provide="shuffle">
@@ -288,22 +278,22 @@
               <h5 style="color: white;">{{work.title}}</h5>
             </div>
            </a>
-           <br>
-         </div>
-        </div><br>
-        <div class="text-center">
-         <pagination-controls (pageChange)="p = $event" previousLabel="Vorige" nextLabel="Volgende">
-         </pagination-controls>
+           
+         </div><br><br>
         </div>
+        
         <!-- </div> -->
-        <br>
-   
+        
       </div>
      </section>
+     <div class="text-center"><a pageScroll href="#workk">
+      <pagination-controls  (pageChange)="p = $event" previousLabel="Vorige" nextLabel="Volgende">
+      </pagination-controls></a>
+     </div>
      
 
-    <!-- Testimonial Area Start-->
-    <div class="testimonail-area home-2">
+    
+    <!-- <div class="testimonail-area home-2">
        <div class="container">
           <div class="row">
              <div class="col-md-12">
@@ -317,7 +307,7 @@
                 <div class="row">
                    <div class="col-md-12">
                       <div id="testimonial-active" class="testimonial-wrapper owl-carousel">
-                         <!-- Single Testimonial -->
+                         
                          <div class="single-testimonial style-two">
                             <div class="author-image">
                                <img src="assets/feedback1.png" alt="">
@@ -335,8 +325,7 @@
                                </div>
                             </div>
                          </div>
-                         <!-- Single Testimonial End -->
-                         <!-- Single Testimonial -->
+                        
                          <div class="single-testimonial style-two">
                             <div class="author-image">
                                <img src="assets/feedback2.png" alt="">
@@ -354,8 +343,7 @@
                                </div>
                             </div>
                          </div>
-                         <!-- Single Testimonial End -->
-                         <!-- Single Testimonial -->
+                         
                          <div class="single-testimonial style-two">
                             <div class="author-image">
                                <img src="assets/feedback3.png" alt="">
@@ -373,7 +361,7 @@
                                </div>
                             </div>
                          </div>
-                         <!-- Single Testimonial End -->
+                         
                       </div>
                    </div>
                 </div>
@@ -381,9 +369,9 @@
           </div>
        </div>
     </div>
-    <!-- Testimonial Area End!-->
+   
 
-    <!-- pricing Area Start-->
+    
     <div class="pricing-area home-2" data-scroll-index="3">
        <div class="container">
           <div class="row">
@@ -395,7 +383,7 @@
              </div>
           </div>
           <div class="row">
-             <!--Single Pricing Table-->
+            
              <div class="col-md-4">
                 <div class="single-pricing-table">
                    <h4>Free</h4>
@@ -409,8 +397,7 @@
                    </ul> <a href="#" class="price-btn">Get Started</a>
                 </div>
              </div>
-             <!--//Single Pricing Table-->
-             <!--Single Pricing Table-->
+      
              <div class="col-md-4">
                 <div class="single-pricing-table popular">
                    <h4>Popular</h4>
@@ -424,8 +411,7 @@
                    </ul> <a href="#" class="price-btn orange">Get Started</a>
                 </div>
              </div>
-             <!--//Single Pricing Table-->
-             <!--Single Pricing Table-->
+         
              <div class="col-md-4">
                 <div class="single-pricing-table">
                    <h4>Professional</h4>
@@ -438,11 +424,11 @@
                       <li>Export in HTML/CSS</li>
                    </ul> <a href="#" class="price-btn">Get Started</a>
                 </div>
-                <!--//Single Pricing Table-->
+               
              </div>
           </div>
        </div>
-    </div>
+    </div> -->
     <!-- pricing Area End!-->
 
     <!-- FAQ & Conatct Area Starts-->

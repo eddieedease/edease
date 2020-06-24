@@ -85,7 +85,7 @@ export class WorkComponent implements OnInit, OnDestroy {
         thumbnailsColumns: 4,
         thumbnailsMargin: 20,
         thumbnailMargin: 20,
-        imageAnimation: NgxGalleryAnimation.Slide,
+        imageAnimation: NgxGalleryAnimation.Zoom,
         thumbnails: true,
         layout:  'thumbnails-top',
         imageInfinityMove: true,
