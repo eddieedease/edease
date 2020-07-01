@@ -2035,7 +2035,6 @@ form.subscribe-form input {
   margin: 0 auto;
 }
 .subscribe-btn {
-  position: absolute;
   top: 6px;
   right: 80px;
   color: #fff;
