@@ -268,28 +268,28 @@
         <div class="row gap-y gap-2">
    
          <br>
-         <div *ngFor="let work of workArray| paginate: { itemsPerPage: 8, currentPage: p } ;let i = index "
-           class="col-6 col-lg-3" [attr.data-groups]="work.tags">
+         <div *ngFor="let work of workArray| paginate: { itemsPerPage: 6, currentPage: p } ;let i = index "
+           class="col-6 col-lg-4" [attr.data-groups]="work.tags">
            <a (click)="openModal(workmodal, i)" class="portfolio-1"
             style="cursor: pointer;border:1px; border-radius: 10px">
             <img [src]="work.cover" style="cursor: pointer;border:1px;border-radius: 10px;">
             <div class="portfolio-detail">
                <br>
-              <h5 style="color: white;">{{work.title}}</h5>
+              <h5 class="text-center" style="color: white;">{{work.title}}</h5>
             </div>
            </a>
            
-         </div><br><br>
+         </div>
+        </div><br>
+        <div class="text-center" style="background-color: white;padding:5px;border-radius: 10px !important;"><a pageScroll href="#workk" >
+         <pagination-controls  (pageChange)="p = $event" previousLabel="Vorige" nextLabel="Volgende">
+         </pagination-controls></a>
         </div>
-        
         <!-- </div> -->
         
-      </div>
+      </div><br><br>
      </section>
-     <div class="text-center"><a pageScroll href="#workk">
-      <pagination-controls  (pageChange)="p = $event" previousLabel="Vorige" nextLabel="Volgende">
-      </pagination-controls></a>
-     </div>
+     
      
 
     
@@ -518,7 +518,7 @@
     <footer class="home-2">
        <div class="container">
           <div class="row">
-             <div class="col-md-12">
+             <!-- <div class="col-md-12">
                 <div class="cta-box">
                    <div class="row">
                       <div class="col-md-8">
@@ -528,7 +528,7 @@
                       </div>
                    </div>
                 </div>
-             </div>
+             </div> -->
              <div class="row">
                 <div class="col-md-8 offset-md-2">
                    <div class="subscribe-box">
