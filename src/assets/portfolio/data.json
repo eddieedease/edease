@@ -9,31 +9,13 @@
     "images": ["assets/portfolio/inervo0.png", "assets/portfolio/inervo1.png", "assets/portfolio/inervo3.png", "assets/portfolio/inervo2.png"]
   },
   {
-    "title": "Renurse",
-    "customer": "RENursE",
-    "wysignl": "Voor <a href='https://renurse.nl/' target='blank'>RENursE.nl</a>, een unieke samenwerking van verpleegkundig onderzoekers, heb ik een website mogen maken & een logo mogen ontwerpen. <br><br> Door middel van een eigen op maat gemaakte CMS kunnen ze hun eigen website up-to-date houden. Ook zit er een inlog systeem in waarmee ze veilig documenten met elkaar kunnen delen<br><br><br>",
+    "title": "Website AItopzorg.nl",
+    "customer": "ETZ Symposium - Ai in de topzorg",
+    "wysignl": "Voor het symposium Ai in de Topzorg <a href='https://aitopzorg.nl/' target='blank'>Inervo</a> kunnen organisaties onderwijs afnemen en het hun werknemers digitaal opleiden. Het is ook mogelijk om zelf cursussen in elkaar te zetten met eigen lesstof. Het is een webapp, dus via elk apparaat wat een internetbrowser heeft kun je het benaderen. <br><br>Inervo is ontwikkeld omdat ik samen met <a href='https://dtsactief.nl/' target='blank'>DTS@ctief</a> een no-nonsense leeroplossing aan wou kunnen bieden die let het op gebruiksgemak en relatief lage kosten voor gebruik. E-Learning voor iedereen!",
     "wysigen": "<b>Blabla</b> <br> Owyeaaa",
-    "cover": "assets/portfolio/renurse1.png",
+    "cover": "assets/portfolio/aitopzorg3.png",
     "tags": "app",
-    "images": ["assets/portfolio/renurse1.png", "assets/portfolio/renurse2.png", "assets/portfolio/renurse3.png"]
-  },
-  {
-    "title": "Askme",
-    "customer": "Noordhoff-Health & PPZ",
-    "wysignl": "<a href='https://askme.noordhoff.nl/' target='blank'>AskMe</a> is een webapplicatie waarin medewerkers van een (zorg)instelling, snel handig informatie op kunnen zoeken. AskMe als tool haakt in op de noodzaak van EPSS (Electronic Perfomance support) op de werkvloer. Afnemers kunnen hun eigen objecten aanmaken en beheren. Dit alles draait in een webomgeving zodat elk apparaat met een browser ermee kan verbinden.<br><br>Binnen het hele <a href='https://askme.noordhoff.nl/' target='blank'>AskMe</a> project heb ik samengewerkt met Noordhoff-Health en Profportaal Zorg en heb ik gewerkt aan een SPA (Single Page Application) met behulp van Angular.",
-    "wysigen": "<b>Blabla</b> <br> Owyeaaa",
-    "cover": "assets/portfolio/askme0.png",
-    "tags": "app",
-    "images": ["assets/portfolio/askme0.png", "assets/portfolio/askme5.png", "assets/portfolio/askme2.png", "assets/portfolio/askme4.png", "assets/portfolio/askme3.png"]
-  },
-  {
-    "title": "E-waste arcades",
-    "customer": "E-waste arcades",
-    "wysignl": "E-waste Arcades zet zich in om hergebruik van grondstoffen te bevorderen en bewustzijn te creëren over elektronisch afval. Door recyclen leuk en makkelijk te maken willen ze het gat tussen de consument en de recycler overbruggen.<br><br>Er zijn verschillende arcade kasten gemaakt waarmee je een spel kunt spelen door je oude telefoon in te leveren of door afval te scheiden. Voor dit bedrijf heb ik een game-interface gemaakt en 4 spellen gemaakt + highscore systeem. Later heb ik ook een API geschreven waardoor alle kasten uitglezen kunnen worden op een pagina. Hier kunnen kasten beheerd worden en kunnen bepaalde acties worden opgezet.<br><br>Voor meer informatie zie <a href='https://ewastearcades.nl' target='blank'>ewastearcades.nl.</a>",
-    "wysigen": "<b>Blabla</b> <br> Owyeaaa",
-    "cover": "assets/portfolio/arcades1.jpg",
-    "tags": "games",
-    "images": ["assets/portfolio/arcades1.jpg", "assets/portfolio/arcades2.jpg", "assets/portfolio/arcades3.jpg", "assets/portfolio/arcades4.jpg", "assets/portfolio/arcades5.jpg", "assets/portfolio/arcades6.jpg", "assets/portfolio/arcades7.jpg", "assets/portfolio/arcades8.png", "assets/portfolio/arcades9.png"]
+    "images": ["assets/portfolio/aitopzorg3.png","assets/portfolio/aitopzorg0.png","assets/portfolio/aitopzorg1.png"]
   },
   {
     "title": "ETZ E-Learning",
@@ -43,6 +25,33 @@
     "cover": "assets/portfolio/etz7.png",
     "tags": "design,video,app",
     "images": ["assets/portfolio/etz7.png", "assets/portfolio/etz0.png", "assets/portfolio/etz6.png", "assets/portfolio/etz.jpg", "assets/portfolio/etz4.jpg", "assets/portfolio/etz2.jpg", "assets/portfolio/etz3.jpg", "assets/portfolio/etz5.jpg"]
+  },
+  {
+    "title": "Website Renurse.nl",
+    "customer": "RENursE",
+    "wysignl": "Voor <a href='https://renurse.nl/' target='blank'>RENursE.nl</a>, een unieke samenwerking van verpleegkundig onderzoekers, heb ik een website mogen maken & een logo mogen ontwerpen. <br><br> Door middel van een eigen op maat gemaakte CMS kunnen ze hun eigen website up-to-date houden. Ook zit er een inlog systeem in waarmee ze veilig documenten met elkaar kunnen delen<br><br><br>",
+    "wysigen": "<b>Blabla</b> <br> Owyeaaa",
+    "cover": "assets/portfolio/renurse1.png",
+    "tags": "app",
+    "images": ["assets/portfolio/renurse1.png", "assets/portfolio/renurse2.png", "assets/portfolio/renurse3.png"]
+  },
+  {
+    "title": "WebApp Askme",
+    "customer": "Noordhoff-Health & PPZ",
+    "wysignl": "<a href='https://askme.noordhoff.nl/' target='blank'>AskMe</a> is een webapplicatie waarin medewerkers van een (zorg)instelling, snel handig informatie op kunnen zoeken. AskMe als tool haakt in op de noodzaak van EPSS (Electronic Perfomance support) op de werkvloer. Afnemers kunnen hun eigen objecten aanmaken en beheren. Dit alles draait in een webomgeving zodat elk apparaat met een browser ermee kan verbinden.<br><br>Binnen het <a href='https://askme.noordhoff.nl/' target='blank'>AskMe</a> project heb ik aan de eerste versie samengewerkt met Noordhoff-Health en Profportaal Zorg en heb ik gewerkt aan een SPA (Single Page Application) met behulp van Angular.",
+    "wysigen": "<b>Blabla</b> <br> Owyeaaa",
+    "cover": "assets/portfolio/askme0.png",
+    "tags": "app",
+    "images": ["assets/portfolio/askme0.png", "assets/portfolio/askme5.png", "assets/portfolio/askme2.png", "assets/portfolio/askme4.png", "assets/portfolio/askme3.png"]
+  },
+  {
+    "title": "E-waste arcades",
+    "customer": "E-waste arcades",
+    "wysignl": "E-waste Arcades zet zich in om hergebruik van grondstoffen te bevorderen en bewustzijn te creëren over elektronisch afval. Door recyclen leuk en makkelijk te maken willen ze het gat tussen de consument en de recycler overbruggen.<br><br>Er zijn verschillende arcade kasten gemaakt waarmee je een spel kunt spelen door je oude telefoon in te leveren of door afval te scheiden. Voor dit bedrijf heb ik een game-interface gemaakt en 4 spellen gemaakt + highscore systeem. Later heb ik ook een API geschreven waardoor alle kasten uitgelezen kunnen worden op een pagina. Hier kunnen kasten beheerd worden en kunnen bepaalde acties worden opgezet.<br><br>Voor meer informatie zie <a href='https://ewastearcades.nl' target='blank'>ewastearcades.nl.</a>",
+    "wysigen": "<b>Blabla</b> <br> Owyeaaa",
+    "cover": "assets/portfolio/arcades1.jpg",
+    "tags": "games",
+    "images": ["assets/portfolio/arcades1.jpg", "assets/portfolio/arcades2.jpg", "assets/portfolio/arcades3.jpg", "assets/portfolio/arcades4.jpg", "assets/portfolio/arcades5.jpg", "assets/portfolio/arcades6.jpg", "assets/portfolio/arcades7.jpg", "assets/portfolio/arcades8.png", "assets/portfolio/arcades9.png"]
   },
   {
     "title": "Lodge aan zee",
