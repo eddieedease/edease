@@ -21,7 +21,7 @@ import { HttpModule, JsonpModule } from '@angular/http';
 import { HttpClientModule } from '@angular/common/http';
 import {  NgxPaginationModule} from 'ngx-pagination';
 import { NgxPageScrollModule } from 'ngx-page-scroll';
-import { NgxGalleryModule } from 'ngx-gallery';
+import { NgxGalleryModule } from 'ngx-gallery-9';
 
 
 import {

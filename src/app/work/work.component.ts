@@ -13,7 +13,7 @@ import {
   NgxGalleryOptions,
   NgxGalleryImage,
   NgxGalleryAnimation
-} from 'ngx-gallery';
+} from 'ngx-gallery-9';
 import {
   DomSanitizer
 } from '@angular/platform-browser';
