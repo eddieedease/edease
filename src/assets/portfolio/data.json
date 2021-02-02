@@ -18,15 +18,6 @@
     "images": ["assets/portfolio/atgard1.png","assets/portfolio/atgard2.png","assets/portfolio/atgard3.png","assets/portfolio/atgard4.png","assets/portfolio/atgard5.png"]
   },
   {
-    "title": "AItopzorg.nl (Website)",
-    "customer": "<a href='https://etz.nl/' target='blank'>ETZ Symposium</a> - AI in de topzorg",
-    "wysignl": "Voor het symposium <a href='https://aitopzorg.nl/' target='blank'>Ai in de Topzorg</a> heb ik de website mogen verzorgen.<br><br>Artificiële intelligentie in de zorg is een nieuwe ontwikkeling die een sterk groeiende vraag kent vanuit diverse gebruikersgroepen, ook binnen een topklinisch ziekenhuis. De bedoeling van dit Live Webinar was het vergroten van de kennis en bewustwording rond de mogelijkheden van AI in een topklinisch ziekenhuis.",
-    "wysigen": "<b>Blabla</b> <br> Owyeaaa",
-    "cover": "assets/portfolio/aitopzorg3.png",
-    "tags": "app",
-    "images": ["assets/portfolio/aitopzorg3.png","assets/portfolio/aitopzorg0.png","assets/portfolio/aitopzorg1.png"]
-  },
-  {
     "title": "ETZ E-Learning",
     "customer": "<a href='https://www.etz.nl/Werken-bij/Leren-bij-ETZ/Leerhuis' target='blank'>Leerhuis Elisabeth-TweeSteden Ziekenhuis</a>",
     "wysignl": "Voor het ETZ Ziekenhuis ben ik al een tijdje bezig met het ondersteunen van het Leerhuis. Dit houdt o.a. in dat ik help om de bestaande E-Learning lesstof zo gebruikersvriendelijk mogelijk probeer aan te bieden aan de werknemers op de werkvloer.<br><br>Ook ondersteun ik het Leerhuis door maken van animaties, en het help ik door het schrijven van applicaties die processen versnellen binnen de afdeling.",
@@ -36,13 +27,13 @@
     "images": ["assets/portfolio/etz7.png", "assets/portfolio/etz0.png", "assets/portfolio/etz6.png", "assets/portfolio/etz.jpg", "assets/portfolio/etz4.jpg", "assets/portfolio/etz2.jpg", "assets/portfolio/etz3.jpg", "assets/portfolio/etz5.jpg"]
   },
   {
-    "title": "Renurse.nl (Website)",
-    "customer": "RENursE - <a href='https://www.stz.nl/' target='blank'>STZ Ziekenhuizen</a> ",
-    "wysignl": "Voor <a href='https://renurse.nl/' target='blank'>RENursE.nl</a>, een unieke samenwerking van verpleegkundig onderzoekers, heb ik een website mogen maken & een logo mogen ontwerpen. <br><br> Door middel van een eigen op maat gemaakte CMS kunnen ze hun eigen website up-to-date houden. Ook zit er een inlog systeem in waarmee ze veilig documenten met elkaar kunnen delen<br><br><br>",
+    "title": "AItopzorg.nl (Website)",
+    "customer": "<a href='https://etz.nl/' target='blank'>ETZ Symposium</a> - AI in de topzorg",
+    "wysignl": "Voor het symposium <a href='https://aitopzorg.nl/' target='blank'>Ai in de Topzorg</a> heb ik de website mogen verzorgen.<br><br>Artificiële intelligentie in de zorg is een nieuwe ontwikkeling die een sterk groeiende vraag kent vanuit diverse gebruikersgroepen, ook binnen een topklinisch ziekenhuis. De bedoeling van dit Live Webinar was het vergroten van de kennis en bewustwording rond de mogelijkheden van AI in een topklinisch ziekenhuis.",
     "wysigen": "<b>Blabla</b> <br> Owyeaaa",
-    "cover": "assets/portfolio/renurse1.png",
+    "cover": "assets/portfolio/aitopzorg3.png",
     "tags": "app",
-    "images": ["assets/portfolio/renurse1.png", "assets/portfolio/renurse2.png", "assets/portfolio/renurse3.png"]
+    "images": ["assets/portfolio/aitopzorg3.png","assets/portfolio/aitopzorg0.png","assets/portfolio/aitopzorg1.png"]
   },
   {
     "title": "Askme (WebApp)",
@@ -54,6 +45,16 @@
     "images": ["assets/portfolio/askme0.png", "assets/portfolio/askme5.png", "assets/portfolio/askme2.png", "assets/portfolio/askme4.png", "assets/portfolio/askme3.png"]
   },
   {
+    "title": "Renurse.nl (Website)",
+    "customer": "RENursE - <a href='https://www.stz.nl/' target='blank'>STZ Ziekenhuizen</a> ",
+    "wysignl": "Voor <a href='https://renurse.nl/' target='blank'>RENursE.nl</a>, een unieke samenwerking van verpleegkundig onderzoekers, heb ik een website mogen maken & een logo mogen ontwerpen. <br><br> Door middel van een eigen op maat gemaakte CMS kunnen ze hun eigen website up-to-date houden. Ook zit er een inlog systeem in waarmee ze veilig documenten met elkaar kunnen delen<br><br><br>",
+    "wysigen": "<b>Blabla</b> <br> Owyeaaa",
+    "cover": "assets/portfolio/renurse1.png",
+    "tags": "app",
+    "images": ["assets/portfolio/renurse1.png", "assets/portfolio/renurse2.png", "assets/portfolio/renurse3.png"]
+  },
+  
+  {
     "title": "E-waste arcades (Custom Software)",
     "customer": "<a href='https://www.ewastearcades.nl/' target='blank'>E-waste arcades</a>",
     "wysignl": "E-waste Arcades zet zich in om hergebruik van grondstoffen te bevorderen en bewustzijn te creëren over elektronisch afval. Door recyclen leuk en makkelijk te maken willen ze het gat tussen de consument en de recycler overbruggen.<br><br>Er zijn verschillende arcade kasten gemaakt waarmee je een spel kunt spelen door je oude telefoon in te leveren of door afval te scheiden. Voor dit bedrijf heb ik een game-interface gemaakt en 4 spellen gemaakt + highscore systeem. Later heb ik ook een API geschreven waardoor alle kasten uitgelezen kunnen worden op een pagina. Hier kunnen kasten beheerd worden en kunnen bepaalde acties worden opgezet.<br><br>Voor meer informatie zie <a href='https://ewastearcades.nl' target='blank'>ewastearcades.nl.</a>",
@@ -63,13 +64,13 @@
     "images": ["assets/portfolio/arcades1.jpg", "assets/portfolio/arcades2.jpg", "assets/portfolio/arcades3.jpg", "assets/portfolio/arcades4.jpg", "assets/portfolio/arcades5.jpg", "assets/portfolio/arcades6.jpg", "assets/portfolio/arcades7.jpg", "assets/portfolio/arcades8.png", "assets/portfolio/arcades9.png"]
   },
   {
-    "title": "Lodge aan zee (Website)",
-    "customer": " <a href='http://www.lodgeaanzee.nl/' target='blank'Lodgeaanzee.nl</a>",
-    "wysignl": "<a href='http://www.lodgeaanzee.nl' target='blank'>LodgeaanZee.nl</a> verhuurt een vakantiehuisje en ik heb voor hun een site verzorgd met een eigen custom CMS (Content management system). De afbeeldingen en teksten kunnen ze zelf wijzigen en er is ook een bookingssyteem in ingebouwd.",
+    "title": "Yoga met Sandra (Website)",
+    "customer": "<a href='https://www.yogametsandra.nl/' target='blank'>yogametsandra.nl</a>",
+    "wysignl": "Voor <a href='https://www.yogametsandra.nl/' target='blank'>Yoga met sandra</a> heb ik een site ontwikkeld die wordt gebruikt om haar yogalessen onder de aandacht te brengen.",
     "wysigen": "<b>Blabla</b> <br> Owyeaaa",
-    "cover": "assets/portfolio/lodgeaanzee1.png",
+    "cover": "assets/portfolio/sanyoga1.png",
     "tags": "app",
-    "images": ["assets/portfolio/lodgeaanzee1.png", "assets/portfolio/lodgeaanzee2.png", "assets/portfolio/lodgeaanzee3.png", "assets/portfolio/lodgeaanzee4.png"]
+    "images": ["assets/portfolio/sanyoga1.png", "assets/portfolio/sanyoga2.png", "assets/portfolio/sanyoga3.png", "assets/portfolio/sanyoga4.png"]
   },
   {
     "title": "KennisCloud (Website)",
@@ -79,6 +80,15 @@
     "cover": "assets/portfolio/kc1.jpg",
     "tags": "app",
     "images": ["assets/portfolio/kc1.jpg", "assets/portfolio/kc2.jpg", "assets/portfolio/kc3.jpg", "assets/portfolio/kc6.jpg", "assets/portfolio/kc4.jpg", "assets/portfolio/kc5.jpg"]
+  },
+  {
+    "title": "Lodge aan zee (Website)",
+    "customer": " <a href='http://www.lodgeaanzee.nl/' target='blank'>Lodgeaanzee.nl</a>",
+    "wysignl": "<a href='http://www.lodgeaanzee.nl' target='blank'>LodgeaanZee.nl</a> verhuurt een vakantiehuisje en ik heb voor hun een site verzorgd met een eigen custom CMS (Content management system). De afbeeldingen en teksten kunnen ze zelf wijzigen en er is ook een bookingssyteem in ingebouwd.",
+    "wysigen": "<b>Blabla</b> <br> Owyeaaa",
+    "cover": "assets/portfolio/lodgeaanzee1.png",
+    "tags": "app",
+    "images": ["assets/portfolio/lodgeaanzee1.png", "assets/portfolio/lodgeaanzee2.png", "assets/portfolio/lodgeaanzee3.png", "assets/portfolio/lodgeaanzee4.png"]
   },
   {
     "title": "Buurtrechten in beeld (Webapplicatie)",

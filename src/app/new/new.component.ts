@@ -65,7 +65,7 @@ export class NewComponent implements OnInit {
   public p = 1;
   json;
 
-  itemsOnWork = 6;
+  itemsOnWork = 9;
 
   constructor(private http_: Http, private sanitizer: DomSanitizer, private modalService: BsModalService, private edSer: EdSerService) {
     http_.get('assets/portfolio/data.json')
