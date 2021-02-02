@@ -31,8 +31,7 @@
               "src/assets/ass/css/magnific-popup.css",
               "src/assets/ass/css/owl.carousel.min.css",
               "src/assets/ass/fonts/flaticon.css",
-              "src/assets/ass/css/style.css",
-              "src/assets/ass/css/responsive.css"
+              "src/assets/ass/css/style.css"
             ],
             "scripts": [
               "src/assets/js/new/jquery.min.js",

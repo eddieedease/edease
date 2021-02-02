@@ -2,9 +2,9 @@
 <div class="text-center">
   
 <div class="btn-group">
-<button (click)="cycleWork('prev')" width="300" type="button" class="btn btn-primary"><<<</button>
-
-<button (click)="cycleWork('next')"  width="300" type="button" class="btn btn-primary">>>></button>
+<button (click)="cycleWork('prev')" width="300" type="button" class="btn btn-lg btn-primary">&nbsp;<&nbsp;</button>
+&nbsp;&nbsp;&nbsp;
+<button (click)="cycleWork('next')"  width="300" type="button" class="btn btn-lg btn-primary">&nbsp;>&nbsp;</button>
 </div></div>
 
 <br><br>
@@ -13,20 +13,21 @@
   <div class="col-12">
 
 
-    <h4>{{currentTitle}}</h4>
-    <hr>
-    <p><b>Klant:</b> {{currentCustomer}}</p>
+    <h4><b>{{currentTitle}}</b></h4>
+    <hr><br>
+    <b>Klant:</b> <p [innerHTML]="currentCustomer"></p>
+    <b>Info:</b>
     <div>
       <p [innerHTML]="workContentText">
       </p>
-    </div>
+    </div><br>
     <hr>
-    <div class=""><br>
+  <!--   <div class=""><br>
       Tags; <b> &nbsp;&nbsp;{{currentTags}} &nbsp; &nbsp;</b>
-    </div>
+    </div> -->
     
 
-<br>
+
  
   <div class="text-center" style="color:black !important;border:1px;background-color: #e4edf0;" ><br>
     <ngx-gallery [options]="galleryOptions" [images]="galleryImages"></ngx-gallery><br><br>
