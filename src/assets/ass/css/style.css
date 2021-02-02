@@ -573,6 +573,7 @@ header {
   padding: 0 15px;
 }
 .main-menu ul li a {
+  margin-top: 10px;
   display: block;
   font-size: 18px;
   font-weight: 700;
@@ -728,6 +729,15 @@ a.hero-btn-2nd {
 .hero-area.home-4 .hero-content h3 {
   color: #fff;
 }
+
+.hero-area.home-2 .hero-content h4,
+.hero-area.home-2 .hero-content p,
+.home-2 .hero-btn-2nd,
+.hero-area.home-4 .hero-content p,
+.hero-area.home-4 .hero-content h4 {
+  color: #fff;
+}
+
 .hero-area.home-2 .hero-content p {
   padding: 20px 0 10px;
 }
